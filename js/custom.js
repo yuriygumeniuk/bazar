@@ -1,8 +1,7 @@
 $(document).ready(function () {
   var mySwiper = new Swiper ('.swiper-container', {
+   	roundLengths: true,
    	slidesPerView: 4,
-   	pagination: '.swiper-pagination',
-	paginationClickable: true,
     spaceBetween: 8,
     freeMode: false,
     loop: true,
@@ -11,4 +10,21 @@ $(document).ready(function () {
         prevEl: '.arrow-left-position',
       },
   })
+  var mySwiper = new Swiper ('.new-block', {
+   	roundLengths: true,
+   	slidesPerView: 4,
+    spaceBetween: 22,
+    freeMode: false,
+    loop: true,
+    speed: 1500,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+   	navigation: {
+        nextEl: '.arrow-right-position',
+        prevEl: '.arrow-left-position',
+      },
+  })
+
 });

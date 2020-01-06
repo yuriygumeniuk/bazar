@@ -331,7 +331,7 @@ h6 {
 	/*----view----*/
 	color: #2a2a2a;
 }
-.link__item a:hover {
+.link__item a:hover, .link__item.active a {
 	background-color: #d58e32;
 	border-top: 4px solid #2a2a2a;	
 	color: #ffffff;

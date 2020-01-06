@@ -1,4 +1,11 @@
 $(document).ready(function () {
+
+  $('.link__item a').click(function(){
+    $(this).parents('.nav-link-list').find('.link__item').removeClass('active');
+    $(this).parent().addClass('active');
+    return false
+  });
+
   var mySwiper = new Swiper ('.swiper-container', {
    	roundLengths: true,
    	slidesPerView: 4,

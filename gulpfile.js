@@ -15,7 +15,7 @@ gulp.task('server', ['styles'], function() {
 
     watch(['./app/**/*.html', './app/**/*.js', './app/img/**/*.*']).on('change', browserSync.reload);
 
-	watch('./app/#source/**/*.scss', function(){
+	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){
 		gulp.start('styles');
 	});
 });

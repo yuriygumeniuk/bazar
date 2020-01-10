@@ -1,3 +1,25 @@
+.label:after {
+  font-size: 12px;
+  z-index: 10;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  display: block;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgba(102, 153, 153, 0.835);
+  color: #fff;
+}
+
 /*---------- end ----------*/
 
 h1,
@@ -56,11 +78,6 @@ h6 {
   width: 623px;
   height: 1px;
   background-color: #cccccc;
-}
-
-.wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
 }
 
 .wrap {
@@ -1711,4 +1728,40 @@ h6 {
 
 .footer-social__link:hover {
   color: #d58e32;
+}
+
+@media (min-width: 1800px) {
+  .label:after {
+    content: 'mdf1-1800->';
+  }
+}
+
+@media (max-width: 1799px) {
+  .label:after {
+    content: 'mdf2-1200-1799';
+  }
+}
+
+@media (max-width: 1199px) {
+  .label:after {
+    content: 'mdf3-900-1199';
+  }
+}
+
+@media (max-width: 899px) {
+  .label:after {
+    content: 'mdf4-600-899';
+  }
+}
+
+@media (max-width: 599px) {
+  .label:after {
+    content: 'mdf5-400-599';
+  }
+}
+
+@media (max-width: 399px) {
+  .label:after {
+    content: 'mdf6-0-399';
+  }
 }

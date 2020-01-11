@@ -73,6 +73,31 @@ h6 {
   text-transform: uppercase;
 }
 
+html,
+body {
+  height: 100%;
+  min-width: 599px;
+  max-width: 1920px;
+  font-size: 16px;
+  color: #2a2a2a;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+}
+
 .hr-about {
   margin: 10px 0;
   width: 623px;
@@ -87,15 +112,12 @@ h6 {
 
 /*---------- header ----------*/
 
-.control-wrapper {
-  width: 100%;
-  height: 54px;
+.control-color {
   background-color: #434343;
 }
 
 .control {
-  width: 100%;
-  height: 100%;
+  height: 54px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,11 +127,6 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 42px;
 }
 
 .control-nav {
@@ -209,6 +226,7 @@ h6 {
 }
 
 .brand {
+  position: relative;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,6 +240,9 @@ h6 {
 }
 
 .phone {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,6 +265,18 @@ h6 {
   line-height: 42px;
 }
 
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
 .logo__link {
   background-size: cover;
   width: 165px;
@@ -258,7 +291,9 @@ h6 {
 /*-------cart--------*/
 
 .cart-wrap {
-  width: 73px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 73px;
+  flex: 0 1 73px;
 }
 
 .cart {
@@ -1788,6 +1823,10 @@ h6 {
   .label:after {
     content: 'mdf3-900-1199';
   }
+
+  .container {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 899px) {
@@ -1799,6 +1838,10 @@ h6 {
 @media (max-width: 599px) {
   .label:after {
     content: 'mdf5-400-599';
+  }
+
+  .phone__number {
+    font-size: 0.8rem;
   }
 }
 

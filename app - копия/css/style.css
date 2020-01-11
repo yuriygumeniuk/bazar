@@ -72,9 +72,12 @@ h6 {
 }
 
 body {
+  width: 100%;
   font-size: 16px;
   height: 100%;
   color: #2A2A2A;
+  min-width: 599px;
+  max-width: 1920px;
 }
 
 .wrapper {
@@ -91,7 +94,6 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 600px;
 }
 
 .hr-about {
@@ -1822,6 +1824,10 @@ body {
   .label:after {
     content: 'mdf3-900-1199';
   }
+
+  .container {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 899px) {
@@ -1833,6 +1839,10 @@ body {
 @media (max-width: 599px) {
   .label:after {
     content: 'mdf5-400-599';
+  }
+
+  .container {
+    min-width: 599px;
   }
 
   .phone__number {

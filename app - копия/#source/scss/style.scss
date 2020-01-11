@@ -40,12 +40,12 @@ h6 {
 	text-transform: uppercase;
 }
 body {
-	// width: 100vw;
+	width: 100%;
 	font-size: 16px;
 	height: 100%;
 	color: #2A2A2A;
-	// min-width: 599px;
-	// max-width: 1920px;
+	min-width: 599px;
+	max-width: 1920px;
 }
 
 .wrapper {
@@ -56,14 +56,11 @@ body {
 }
 .container {
 	margin: 0 auto;
-	width: 600px;
-	// width: 100vw;
 	@media (max-width: 1199px) {
-		// padding: 0 20px;
+		padding: 0 20px;
 	}
 	@media (max-width: 599px) {
-		// min-width: 599px;
-		// width: 100vw;
+		min-width: 599px;
 	}
 }
 

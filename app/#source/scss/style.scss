@@ -786,6 +786,8 @@ font-size: 16px;
 }
 .description-bar {
 	display: flex;
+	border-bottom: 1px solid #c2c2c2;
+    margin-bottom: -1px;
 }
 .description-bar__item {
 	padding-top: 2px;
@@ -795,7 +797,9 @@ font-size: 16px;
 	width: 154px;
 	height: 53px;
 	border-right: 1px solid #c2c2c2;
-	border-bottom: 1px solid #c2c2c2;
+	// border-bottom: 1px solid #c2c2c2;
+	border-bottom: 1px solid #c2c2c2;;
+    margin-bottom: -1px;
 	background-color: #ffffff;	
 	/*----view----*/
 	color: #2a2a2a;
@@ -808,22 +812,43 @@ font-size: 16px;
 .description-bar__item:hover {
 	color: #d58e32;
 }
-.description-bar__item.active {
+.description-bar__item.active {	
 	border-bottom: 1px solid rgba(194, 194, 194, 0);
 	color: #d58e32;	
 }
 /*---------------*/
-.review-item {
+.review-block {
+	width: 100%;
+	height: 100%;
+}
+.hidden {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+}
+.review__item {
 	margin: 31px 0 0 37px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-}
-.review-item span {
-	color: #676767;
-	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
-	font-weight: 500;
+	opacity: 1;
+	transition: opacity 1000ms;
+	visibility: visible;
+	& span {
+		color: #676767;
+		font-family: 'Poppins', sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+	}	
+	&.hidden {
+		opacity: 0;
+	}
 }
 .review__add {
 	margin: 27px 0 30px 0;
@@ -861,6 +886,17 @@ font-size: 16px;
 	font-weight: 500;		
 }
 /*---------------*/
+.textarea.err {
+	border: 1px solid red;
+}
+.review__name .input.err {
+    border: 1px solid red;
+}  
+
+.review__email .input.err {
+	border: 1px solid red;
+}
+
 .review-publish {
 	display: flex;
 	margin-top: 17px;
@@ -868,12 +904,12 @@ font-size: 16px;
 	height: 52px;
 }
 .review-field {
+	border: 1px solid #c2c2c2;
 	padding-left: 13px;
 	margin-right: 18px;
+	margin-bottom: 15px;
 	width: 446px;
-	height: 51px;
-	border: 1px solid #c2c2c2;
-	/*----view----*/
+	height: 51px;	/*----view----*/
 	color: #676767;
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;

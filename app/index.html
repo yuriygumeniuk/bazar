@@ -83,7 +83,7 @@
 					<span class="select__text">Select a category</span>
 					<span class="select__arrow"></span>
 				</div>
-				<form action="" class="search-form">
+				<form action="#!" name="search" class="search-form">
 					<input type="text" class="form__text" placeholder="Search products...">
 					<input type="submit" class="form__submit">
 					<span class="search__ico"></span>
@@ -288,44 +288,54 @@
 	<section class="description wrap">
 
 		<div class="description-bar">
-			<a href="#!">
-				<div class="description-bar__item">Description</div>				
+			<!-- 1 -->
+			<a href="#tab_1" class="description-bar__item active">
+				Description
 			</a>
-			<a href="#!">
-				<div class="description-bar__item active">reviews(
-					<span class="reviews-total">0</span>
-				)</div>
+			<!-- 2	-->
+			<a href="#tab_2" class="description-bar__item">
+				reviews(<span class="reviews-total">0</span>)
 			</a>
-			<a href="#!">
-				<div class="description-bar__item">specification</div>
+			<!-- 3 -->
+			<a href="#tab_3" class="description-bar__item">
+				specification
 			</a>
-			<a href="#!">
-				<div class="description-bar__item">custom tab</div>
-			</a>	
+			<!-- 4 -->
+			<a href="#tab_4" class="description-bar__item">
+				custom tab
+			</a>
+			<!--  -->
 		</div>
 
-		<div class="review-item">
-			<span class="review__exist">There are no reviews for this product.</span>
-
-			<a href="#!" class="review__add">Add a review</a>
-				
-			<span>Your Rating</span>
-			
-			<div class="review-rating">
-				<span>Bad</span>
-				<div class="review__stars">    </div>
-				<span>Good</span>
-			</div>
-
-			<form action="" class="review-form">				
-				<textarea class="textarea"></textarea>				
-				<div class="review-publish">
-					<input type="text" placeholder="Name*" class="review-field">
-					<input type="email" placeholder="Email*" class="review-field">
-					<input type="submit" class="review-btn" value="continue">
+		<div class="review-block">
+			<!-- 1 -->
+			<div class="review__item" id="tab_1">
+				<span class="review__exist">1 There are no reviews for this product.</span>
+				<a href="#!" class="review__add">Add a review</a>				
+				<span>Your Rating</span>
+				<div class="review-rating">
+					<span>Bad</span>
+					<div class="review__stars">    </div>
+					<span>Good</span>
 				</div>
-			</form>
+				<form action="#" class="review-form">				
+					<textarea class="textarea req"></textarea>				
+					<div class="review-publish">
+						<div class="review__name">
+							<input autocomplete="off" name="form[]" type="text" data-value="Name*" class="review-field input req name">
+						</div>
+						<div class="review__email">
+							<input autocomplete="off" name="form[]" type="text" data-value="Email*" class="review-field input req email">
+						</div>
+						<div class="review__button">
+							<button type="submit" class="review-btn">continue</button>
+						</div>	
+					</div>
+				</form>
+			</div>
+			<!--  -->
 		</div>
+
 	</section>
 
 <section class="new wrap">

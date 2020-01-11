@@ -6,6 +6,7 @@ var notify 		= require('gulp-notify');
 var autoprefixer= require('gulp-autoprefixer');
 var watch 		= require('gulp-watch');
 var gcmq		= require('gulp-group-css-media-queries');
+var csscomb		= require('gulp-csscomb');
 
 gulp.task('server', ['styles'], function() {
 	
@@ -18,6 +19,7 @@ gulp.task('server', ['styles'], function() {
 	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){
 		gulp.start('styles');
 	});
+
 });
 
 gulp.task('styles', function() {
@@ -42,3 +44,11 @@ gulp.task('styles', function() {
 });
 
 gulp.task('default', ['server']);
+
+gulp.task('csscomb', function() {
+  return gulp.src('./app/#source/scss/style.scss')
+    .pipe(csscomb())
+    // .pipe(csscomb('./.csscomb.json'))
+    // .pipe(csscomb( { configPath: './.csscomb.json'  } ))
+    .pipe(gulp.dest('./app/#source/scss'));
+});

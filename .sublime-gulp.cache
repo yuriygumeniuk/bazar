@@ -1,1 +1,1 @@
-{"E:\\D\\Freelance\\111\\02bazar\\gulpfile.js":{"sha1":"627b4f035f629091f7ba9681f86bb3c67612ef2e","tasks":{"server":{"name":"server","dependencies":"styles"},"styles":{"name":"styles","dependencies":""},"default":{"name":"default","dependencies":"server"}}}}
+{"E:\\D\\Freelance\\111\\02bazar\\gulpfile.js":{"sha1":"aef248af2ba4d998eec4e871afeb467390398eac","tasks":{"server":{"name":"server","dependencies":"styles"},"styles":{"name":"styles","dependencies":""},"default":{"name":"default","dependencies":"server"},"csscomb":{"name":"csscomb","dependencies":""}}}}

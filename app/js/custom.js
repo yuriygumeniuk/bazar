@@ -1,20 +1,19 @@
 $(document).ready(function () {
 
-	if($(window).width() <= 600) {
+	if($(window).width() <= 599) {
 		$('meta[name="viewport"]').remove();  
-		// $('meta[content^="width=device-width"]').remove();  
 		console.log('run');
-		$('head').append( '<meta name="viewport" content="width=600, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
+		$('head').append( '<meta name="viewport" content="width=599, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
 	}
 	window.addEventListener("resize", function() {
-		if($(window).width() <= 600) {
+		if($(window).width() <= 599) {
 			if ($('meta[name=viewport]').is('[content^="width=device-width"]')) {
 				$('meta[name=viewport]').remove();
-				$('head').append( '<meta name="viewport" content="width=600, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
+				$('head').append( '<meta name="viewport" content="width=599, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
 			}
 		}
 		else {
-			if ($('meta[name=viewport]').is('[content^="width=600"]')) {
+			if ($('meta[name=viewport]').is('[content^="width=599"]')) {
 				$('meta[name=viewport]').remove();
 				$('head').append( '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
 			}

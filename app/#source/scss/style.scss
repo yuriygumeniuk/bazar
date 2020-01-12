@@ -57,7 +57,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: 100vw;
-	@media (max-width: 1199px) {
+	@include mdf3_1199 {
 		padding: 0 20px;
 	}
 }
@@ -182,7 +182,7 @@ body {
 	line-height: 42px;
 	padding-left: 13px;
 	color: #d8d8d8;
-	@media (max-width: 599px) {
+	@include mdf5_599 {
 		font-size: .8rem;
 	}
 }
@@ -249,7 +249,13 @@ body {
 .navigation {
 	display: flex;
 	height: 100%;
-	@media (max-width: 599px) {
+	@include mdf4_899 {
+		flex-wrap: wrap;
+		align-items: space-between;
+		width: 100%;
+		flex-direction: column;
+	}
+	@include mdf5_599 {
 		flex-wrap: wrap;
 	}
 }
@@ -258,38 +264,45 @@ body {
 	display: flex;
 	flex: 1 0 50%;
 	align-items: center;
-	@media (max-width: 1199px) {
+	@include mdf3_1199 {
 		flex: 0 1 40%;
 	}
-	@media (max-width: 599px) {
-		flex: 0 1 100%;
+	@include mdf4_899 {
 		height: 60px;
+		display: none;
+	}
+	@include mdf5_599 {
+		flex: 0 1 100%;
 	}
 }
 .select-category {
 	display: flex;
-	width: 212px;
+	flex: 1 0 212px;
 	height: 47px;
 	border: 1px solid #454545;
 	align-items: center;
 	justify-content: space-around;
-	@media (max-width: 1199px) {
-		width: 0px;
-		min-width: 0px;
-		flex: 1 0 50%;
-		padding: 0 5px;
+	@include mdf3_1199 {
+		flex: 1 0 auto;
+		padding: 0 10px;		
 	}
-	@media (max-width: 599px) {
+	@include mdf4_899 {
+		width: 0px;
+		flex: 0 1 200px;
+	}
+	@include mdf5_599 {
 		flex: 1 0 90px;
 	}
 }
 .gamburger {
+	display: block;
 	font-family: "FontAwesome";
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 42px;
 	color: #d58e32;
-	@media (max-width: 899px) {
+	width: 40px;
+	@include mdf4_899 {
 		font-size: 26px;
 	}
 }
@@ -300,6 +313,9 @@ body {
 	line-height: 42px;
 	color: #2a2a2a;
 	white-space: nowrap;
+	@include mdf3_1199 {
+		display: none;
+	}
 }
 .select__arrow {
 	font-family: "FontAwesome";
@@ -313,12 +329,18 @@ body {
 .search-field {
 	position: relative;
 	display: flex;
-	width: 276px;
+	flex: 1 1 auto;
 	height: 47px;
 	border: 1px solid #454545;
 	border-left: none;
 	justify-content: space-between;
-	@media (max-width: 599px) {
+	@include mdf4_899 {
+		flex: 1 0 auto;
+	}
+	@include mdf3_1199 {
+		flex: 2 1 auto;	
+	}
+	@include mdf5_599 {
 		flex: 1 0 auto;
 	}
 }
@@ -327,8 +349,7 @@ body {
 	height: 100%;
 }
 .form__text {
-	width: 100%;
-	height: 100%;
+	width: calc(100% - 50px);
 	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	font-weight: 500;
@@ -336,7 +357,7 @@ body {
 	margin-left: 13px;
 	color: #a4a4a4;
 	border: none;
-	@media (max-width: 599px) {
+	@include mdf5_599 {
 		display: none;
 	}	
 }
@@ -352,15 +373,15 @@ body {
 }
 .search__ico {
 	font-family: "FontAwesome";
-	font-size: 16px;
-	// font-weight: 500;
-	// line-height: 42px;
+	font-size: 24px;
 	position: absolute;
 	z-index: 1;
-	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
 	transition: all .3s linear;
 	color: #2a2a2a;
-	@media (max-width: 599px) {
+	@include mdf5_599 {
 		font-size: 28px;
 		right: -5px;
 		top: 50%;
@@ -372,43 +393,40 @@ body {
 }
 /*---------------*/
 .nav-link {
-	height: 94px;
-	border: 1px solid red;
 	display: flex;
 	flex: 1 0 50%;
 	align-items: center;
-	@media (max-width: 1199px) {
+	
+	@include mdf3_1199 {
 		flex: 1 0 60%;
+		margin-left: 30px;
 	}
-	@media (max-width: 899px) {
-		
+	@include mdf4_899 {
+		flex: 1 0 auto;
 	}
-	@media (max-width: 599px) {
+	@include mdf5_599 {
 		flex: 1 0 50%;
 		height: 60px;
 	}
 }
 .nav-link-list {
-	border: 1px solid green;
 	display: flex;
-	height: 100%;
 	flex: 1 0 100%;
 	list-style: none;
-	align-items: center;
 	justify-content: flex-end;
-	@media (max-width: 599px) {
-		justify-content: space-between;
+	@include mdf4_899 {
+		justify-content: center;
 	}
-}
-.link__item {
-	height: 100%;
+	@include mdf5_599 {
+		justify-content: center;
+	}
 }
 .link__item a {
 	display: block;
-	height: 100%;
-	padding: 38px 17px;
-	@media (max-width: 1199px) {
-		padding: 20px 10px;
+	height: 94px;
+	padding: 36px 20px;
+	@include mdf3_1199 {
+		padding: 38px 17px;
 	}
 	/*----view----*/
 	color: #2a2a2a;

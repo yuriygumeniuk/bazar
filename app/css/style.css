@@ -361,8 +361,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 50%;
-  flex: 1 0 50%;
+  -ms-flex: 1 0 40%;
+  flex: 1 0 40%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -392,6 +392,7 @@ body {
   line-height: 42px;
   color: #d58e32;
   width: 40px;
+  margin: 0 5px;
 }
 
 .select__text {
@@ -404,6 +405,7 @@ body {
 }
 
 .select__arrow {
+  margin-right: 5px;
   font-family: "FontAwesome";
   font-size: 16px;
   font-weight: 500;
@@ -484,8 +486,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 50%;
-  flex: 1 0 50%;
+  -ms-flex: 1 0 60%;
+  flex: 1 0 60%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -596,9 +598,12 @@ body {
 }
 
 .product-pictures {
-  width: 436px;
+  border: 1px solid red;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 40%;
+  flex: 1 0 40%;
   height: 635px;
-  margin: 20px 10px auto 20px;
+  padding: 20px 10px auto 20px;
 }
 
 .pictures-main {
@@ -641,7 +646,7 @@ body {
 
 .product-pictures-small {
   position: relative;
-  width: 100%;
+  width: 436px;
   margin-top: 14px !important;
   padding: 0 14px !important;
 }
@@ -720,6 +725,7 @@ body {
 /*---------- about ----------*/
 
 .product-about {
+  border: 1px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -727,9 +733,11 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 627px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 60%;
+  flex: 1 0 60%;
   height: 610px;
-  margin: 20px 28px 73px 20px;
+  padding: 20px 28px 73px 20px;
 }
 
 .product-name {
@@ -990,6 +998,7 @@ body {
 /*------- overview --------*/
 
 .overview {
+  width: 100%;
   margin: 10px 0 5px;
 }
 
@@ -1833,6 +1842,10 @@ body {
   .label:after {
     content: 'mdf2-1200-1799';
   }
+
+  .nav-link {
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1929,6 +1942,11 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .link__item a {
+    height: 60px;
+    padding: 20px 17px;
   }
 }
 

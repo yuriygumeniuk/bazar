@@ -45,7 +45,7 @@ gulp.task('styles', function() {
 
 gulp.task('default', ['server']);
 
-gulp.task('csscomb', function() {
+gulp.task('comb', function() {
   return gulp.src('./app/#source/scss/style.scss')
     .pipe(csscomb())
     // .pipe(csscomb('./.csscomb.json'))

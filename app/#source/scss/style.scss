@@ -262,7 +262,7 @@ body {
 .search {
 	height: 94px;
 	display: flex;
-	flex: 1 0 50%;
+	flex: 1 0 40%;
 	align-items: center;
 	@include mdf3_1199 {
 		flex: 0 1 40%;
@@ -284,7 +284,7 @@ body {
 	justify-content: space-around;
 	@include mdf3_1199 {
 		flex: 1 0 auto;
-		padding: 0 10px;		
+		padding: 0 10px;
 	}
 	@include mdf4_899 {
 		width: 0px;
@@ -302,6 +302,7 @@ body {
 	line-height: 42px;
 	color: #d58e32;
 	width: 40px;
+	margin: 0 5px;
 	@include mdf4_899 {
 		font-size: 26px;
 	}
@@ -318,6 +319,7 @@ body {
 	}
 }
 .select__arrow {
+	margin-right: 5px;
 	font-family: "FontAwesome";
 	font-size: 16px;
 	font-weight: 500;
@@ -338,7 +340,7 @@ body {
 		flex: 1 0 auto;
 	}
 	@include mdf3_1199 {
-		flex: 2 1 auto;	
+		flex: 2 1 auto;
 	}
 	@include mdf5_599 {
 		flex: 1 0 auto;
@@ -359,7 +361,7 @@ body {
 	border: none;
 	@include mdf5_599 {
 		display: none;
-	}	
+	}
 }
 .form__submit {
 	z-index: 2;
@@ -394,9 +396,11 @@ body {
 /*---------------*/
 .nav-link {
 	display: flex;
-	flex: 1 0 50%;
+	flex: 1 0 60%;
 	align-items: center;
-	
+	@include mdf2_1799 {
+		padding-left: 20px;
+	}
 	@include mdf3_1199 {
 		flex: 1 0 60%;
 		margin-left: 30px;
@@ -427,6 +431,10 @@ body {
 	padding: 36px 20px;
 	@include mdf3_1199 {
 		padding: 38px 17px;
+	}
+	@include mdf4_899 {
+		height: 60px;
+		padding: 20px 17px;
 	}
 	/*----view----*/
 	color: #2a2a2a;
@@ -493,9 +501,11 @@ body {
 	background-color: #fff;
 }
 .product-pictures {
-	width: 436px;
+	border: 1px solid red;
+	// width: 436px;
+	flex: 1 0 40%;
 	height: 635px;
-	margin: 20px 10px auto 20px;
+	padding: 20px 10px auto 20px;
 }
 .pictures-main {
 	position: relative;
@@ -533,7 +543,7 @@ body {
 /*---------------*/
 .product-pictures-small {
 	position: relative;
-	width: 100%;
+	width: 436px;
 	margin-top: 14px !important;
 	padding: 0 14px !important;
 }
@@ -594,11 +604,13 @@ body {
 }
 /*---------- about ----------*/
 .product-about {
+	border: 1px solid green;
 	display: flex;
 	flex-direction: column;
-	width: 627px;
+	// width: 627px;
+	flex: 1 0 60%;
 	height: 610px;
-	margin: 20px 28px 73px 20px;
+	padding: 20px 28px 73px 20px;
 }
 .product-name {
 	display: flex;
@@ -773,6 +785,7 @@ body {
 }
 /*------- overview --------*/
 .overview {
+	width: 100%;
 	margin: 10px 0 5px;
 }
 .overview span {

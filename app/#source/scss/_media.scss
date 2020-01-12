@@ -1,0 +1,31 @@
+@mixin mdf1_1800- {
+    @media (min-width: 1799px){
+        @content;
+    }
+}
+@mixin mdf2_1799 {
+    @media (max-width: 1799px){
+        @content;
+    }
+}
+@mixin mdf3_1199 {
+    @media (max-width: 1199){
+        @content;
+    }
+}
+@mixin mdf4_899 {
+    @media (max-width: 899px){
+        @content;
+    }
+}
+@mixin mdf5_599 {
+    @media (max-width: 599px){
+        @content;
+    }
+}
+@mixin mdf6_399{
+    @media (max-width: 399px){
+        @content;
+    }
+}
+

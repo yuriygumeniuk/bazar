@@ -7,10 +7,10 @@ var autoprefixer= require('gulp-autoprefixer');
 var watch 		= require('gulp-watch');
 var gcmq		= require('gulp-group-css-media-queries');
 var csscomb		= require('gulp-csscomb');
-var fileinclude		= require('gulp-file-include');
+var fileinclude	= require('gulp-file-include');
 
 gulp.task('html', function() {
-	return gulp.src('./app/#source/html/*.html')
+	return gulp.src('./app/#source/html/index.html')
 	.pipe(plumber({
 		errorHandler: notify.onError(function(err){
 			return {
@@ -27,20 +27,12 @@ gulp.task('html', function() {
 });
 
 gulp.task('server', ['styles', 'html'], function() {
-	
-	browserSync.init({
-		server: { baseDir: './app/'}
-	});
+	browserSync.init({server: { baseDir: './app/'}});
 
+	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){gulp.start('styles');});
+	watch('./app/#source/html/*.html', {readDelay: 500}, function(){gulp.start('html');});
     watch(['./app/**/*.html', './app/**/*.js', './app/img/**/*.*']).on('change', browserSync.reload);
-
-	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){
-		gulp.start('styles');
-	});
-	
-	watch('./app/html/*.html', {readDelay: 500}, function(){
-		gulp.start('styles');
-	});
+    watch(['./app/**/*.html', './app/**/*.js', './app/img/**/*.*']).on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -69,7 +61,11 @@ gulp.task('default', ['server']);
 gulp.task('comb', function() {
   return gulp.src('./app/#source/scss/style.scss')
     .pipe(csscomb())
-    // .pipe(csscomb('./.csscomb.json'))
-    // .pipe(csscomb( { configPath: './.csscomb.json'  } ))
+    .pipe(gulp.dest('./app/#source/scss'));
+});
+
+gulp.task('notpref', function() {
+  return gulp.src('./app/#source/scss/style.scss')
+    .pipe(sass())
     .pipe(gulp.dest('./app/#source/scss'));
 });

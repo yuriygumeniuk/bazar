@@ -1,31 +1,3 @@
-.label {
-  padding: 2px;
-  font-size: 12px;
-  z-index: 10;
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  display: block;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 5px;
-  background-color: rgba(102, 153, 153, 0.835);
-  color: #fff;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 h1,
 h2,
 h3,
@@ -101,11 +73,15 @@ body {
 
 .container {
   margin: 0 auto;
+  width: 100vw;
 }
 
 .hr-about {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
   margin: 10px 0;
-  width: 623px;
+  width: 100%;
   height: 1px;
   background-color: #ccc;
 }
@@ -150,8 +126,8 @@ body {
 }
 
 .control-nav__block a {
-  color: #fff;
   line-height: 42px;
+  color: #fff;
   font-weight: 500;
   font-size: 13px;
   font-family: 'Poppins', sans-serif;
@@ -181,9 +157,9 @@ body {
 }
 
 .control-nav__arrow {
-  color: #fff;
   text-transform: uppercase;
   line-height: 74px;
+  color: #fff;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -206,8 +182,8 @@ body {
 }
 
 .control-login__awesome {
-  color: #fff;
   line-height: 42px;
+  color: #fff;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -215,8 +191,8 @@ body {
 
 .control-login__text {
   padding-left: 9px;
-  color: #fff;
   line-height: 42px;
+  color: #fff;
   font-weight: 500;
   font-size: 13px;
   font-family: 'Poppins', sans-serif;
@@ -256,8 +232,8 @@ body {
 }
 
 .phone__img {
-  color: #d58e32;
   line-height: 42px;
+  color: #d58e32;
   font-weight: 500;
   font-size: 44px;
   font-family: 'FontAwesome';
@@ -265,8 +241,8 @@ body {
 
 .phone__number {
   padding-left: 13px;
-  color: #d8d8d8;
   line-height: 42px;
+  color: #d8d8d8;
   font-weight: 500;
   font-size: 17px;
   font-family: 'Poppins';
@@ -314,8 +290,8 @@ body {
 
 .cart__img {
   padding-top: 3px;
-  color: #fff;
   line-height: 42px;
+  color: #fff;
   font-weight: 500;
   font-size: 20px;
   font-family: 'FontAwesome';
@@ -339,8 +315,8 @@ body {
   height: 29px;
   border-radius: 50%;
   background-color: #363636;
-  color: #e0e3ed;
   line-height: 42px;
+  color: #e0e3ed;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -393,17 +369,17 @@ body {
   display: block;
   margin: 0 5px;
   width: 40px;
-  color: #d58e32;
   line-height: 42px;
+  color: #d58e32;
   font-weight: 500;
   font-size: 22px;
   font-family: 'FontAwesome';
 }
 
 .select__text {
-  color: #2a2a2a;
   white-space: nowrap;
   line-height: 42px;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -411,9 +387,9 @@ body {
 
 .select__arrow {
   margin-right: 5px;
-  color: #2a2a2a;
   text-transform: uppercase;
   line-height: 74px;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -446,8 +422,8 @@ body {
   margin-left: 13px;
   width: calc(100% - 50px);
   border: none;
-  color: #a4a4a4;
   line-height: 42px;
+  color: #a4a4a4;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -469,13 +445,13 @@ body {
   top: 50%;
   right: 10px;
   z-index: 1;
-  color: #2a2a2a;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  color: #2a2a2a;
   font-size: 24px;
   font-family: 'FontAwesome';
 }
@@ -567,8 +543,8 @@ body {
 
 .bread-nav__item:after {
   padding: 4px 15px 0;
-  color: #dedede;
   content: '>';
+  color: #dedede;
   font-weight: 500;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
@@ -596,27 +572,31 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-height: 600px;
+  max-height: 670px;
   border: 1px solid #c2c2c2;
-  border: 1px solid red;
   background-color: #fff;
 }
 
 .product-pictures {
-  padding-bottom: 20px;
-  max-width: 40%;
-  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 10px auto 20px;
+  max-width: 436px;
+  max-height: 635px;
+  width: 40%;
+  height: 63vw;
+  border: 1px solid red;
 }
 
 .pictures-main {
   position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 436px;
-  height: 493px;
-  border: 1px solid blue;
+  height: 100%;
   background-color: #f4f5f7;
-  background-size: cover;
   text-align: center;
 }
 
@@ -632,9 +612,9 @@ body {
   width: 38px;
   height: 37px;
   border: 1px solid #2a2a2a;
+  text-transform: uppercase;
   /*----view----*/
   color: #2a2a2a;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -650,17 +630,20 @@ body {
 
 .product-pictures-small {
   position: relative;
-  margin: 0 auto;
   margin-top: 14px !important;
   padding: 0 14px !important;
-  width: 100%;
-  border: 1px solid blue;
+  max-width: 436px;
+  max-height: 107px;
+  width: 40vw;
+  height: 8.8vw;
+  border: 1px solid green;
 }
 
 .item-block {
   margin: 0 auto;
+  max-height: 104px;
   width: 89px;
-  height: 104px;
+  height: 8.8vw;
   background-color: #f4f5f7;
   text-align: center;
 }
@@ -693,12 +676,12 @@ body {
   width: 30px;
   height: 30px;
   border: 1px solid #2a2a2a;
-  color: #2a2a2a;
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 20px;
   font-family: 'FontAwesome';
@@ -710,12 +693,12 @@ body {
   width: 30px;
   height: 30px;
   border: 1px solid #2a2a2a;
-  color: #2a2a2a;
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 20px;
   font-family: 'FontAwesome';
@@ -731,7 +714,6 @@ body {
 /*---------- about ----------*/
 
 .product-about {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,17 +721,32 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: 0 auto;
   padding: 20px;
-  min-height: 100%;
-  max-width: 60%;
-  border: 1px solid red;
+  max-height: 635px;
+  width: 60%;
+  height: 63vw;
+}
+
+.wrap-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .product-name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -766,17 +763,17 @@ body {
 }
 
 .product__title span {
-  color: #2a2a2a;
   line-height: 41px;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 24px;
   font-family: 'Poppins';
 }
 
 .rating-stars {
-  color: #2a2a2a;
   letter-spacing: 1.92px;
   line-height: 2;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -809,8 +806,8 @@ body {
 
 .rating-add {
   margin-left: 13px;
-  color: #676767;
   line-height: 30px;
+  color: #676767;
   font-weight: 500;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
@@ -837,12 +834,15 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
   margin: 3px 0;
 }
 
 .price-old span {
-  color: #939393;
   line-height: 52.71px;
+  color: #939393;
   font-weight: 300;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
@@ -865,8 +865,8 @@ body {
 }
 
 .price-new span {
-  color: #fff;
   line-height: 52.71px;
+  color: #fff;
   font-weight: 500;
   font-size: 22px;
   font-family: 'Poppins';
@@ -878,6 +878,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -888,6 +891,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .add-cart-btn {
@@ -914,9 +918,9 @@ body {
 }
 
 .add-btn-text {
-  color: #fff;
   text-transform: uppercase;
   line-height: 42px;
+  color: #fff;
   font-weight: 500;
   font-size: 13px;
   font-family: 'Poppins';
@@ -937,11 +941,11 @@ body {
   width: 37px;
   height: 37px;
   border: 1px solid #2a2a2a;
-  color: #2a2a2a;
   text-transform: uppercase;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -956,7 +960,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 22px 0 12px;
+  margin-top: auto;
 }
 
 .cart-quantity span {
@@ -1004,20 +1008,15 @@ body {
 /*------- overview --------*/
 
 .overview {
-  margin: 10px 0 5px;
-  width: 100%;
+  -webkit-box-flex: 4;
+  -ms-flex: 4 1 auto;
+  flex: 4 1 auto;
+  margin: 5px 0 0;
 }
 
-.overview__text {
-  max-width: 500px;
-  height: 80px;
+.overview p {
   overflow: hidden;
-}
-
-.overview__text p {
-  border: 1px solid red;
   max-width: 100%;
-  height: 100%;
 }
 
 .overview span {
@@ -1030,8 +1029,8 @@ body {
 .overview p {
   margin-top: 12px;
   width: 570px;
-  color: #676767;
   line-height: 25px;
+  color: #676767;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -1087,51 +1086,9 @@ body {
 /*---------- social ----------*/
 
 .social {
-  position: absolute;
-  bottom: 20px;
-  border: 1px solid red;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 17px;
-}
-
-.facebook {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 85px;
-  height: 39px;
-  background-color: #3b5998;
-}
-
-.margin-l {
-  margin-left: 6px;
-}
-
-.facebook-ico {
-  color: #fff;
-  line-height: 42px;
-  font-weight: 500;
-  font-size: 16px;
-  font-family: 'FontAwesome';
-}
-
-.facebook-text {
-  padding-left: 10px;
-  color: #fff;
-  font-weight: 500;
-  font-size: 13px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .social-btn {
@@ -1141,19 +1098,33 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-right: 11px;
-  padding-bottom: 2px;
-  padding-left: 14px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 2 auto;
+  flex: 1 2 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 5px;
+  height: 40px;
   border: 1px solid #2a2a2a;
 }
 
+.social-btn:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-text {
-  padding-left: 8px;
+  padding-left: 5px;
   color: #888;
-  line-height: 30px;
   font-weight: 500;
   font-size: 13px;
   font-family: 'Poppins', sans-serif;
+}
+
+.facebook {
+  color: #03c;
+  font-size: 16px;
+  font-family: 'FontAwesome';
 }
 
 .tweet {
@@ -1179,7 +1150,6 @@ body {
 .description {
   margin-top: 60px;
   height: 460px;
-  border: 1px solid blue;
   border: 1px solid #c2c2c2;
   background-color: #fff;
 }
@@ -1209,12 +1179,12 @@ body {
   border-right: 1px solid #c2c2c2;
   border-bottom: 1px solid #c2c2c2;
   background-color: #fff;
-  /*----view----*/
-  color: #2a2a2a;
   text-transform: uppercase;
   -webkit-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear;
+  /*----view----*/
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 16px;
   font-family: 'Poppins';
@@ -1319,8 +1289,8 @@ body {
   width: 1060px;
   height: 99px;
   border: 1px solid #c2c2c2;
-  color: #676767;
   resize: none;
+  color: #676767;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -1357,8 +1327,8 @@ body {
   height: 51px;
   /*----view----*/
   border: 1px solid #c2c2c2;
-  color: #676767;
   line-height: 24px;
+  color: #676767;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -1370,10 +1340,10 @@ body {
   border: none;
   border: none;
   background-color: #2a2a2a;
-  /*----view----*/
-  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  /*----view----*/
+  color: #fff;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins';
@@ -1473,12 +1443,12 @@ body {
   height: 21px;
   border-radius: 0 0 50% 50% / 0 0 100% 100%;
   background-color: #2a2a2a;
-  /*----view----*/
-  color: #fff;
   text-align: center;
   -webkit-transform: translateX(50%);
   -ms-transform: translateX(50%);
   transform: translateX(50%);
+  /*----view----*/
+  color: #fff;
   font-weight: 500;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
@@ -1531,9 +1501,9 @@ body {
   width: 132px;
   height: 37px;
   background-color: #2a2a2a;
+  text-transform: uppercase;
   /*----view----*/
   color: #fff;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 13px;
   font-family: 'Poppins';
@@ -1577,8 +1547,8 @@ body {
 }
 
 .star__full {
-  color: #2a2a2a;
   letter-spacing: 1.92px;
+  color: #2a2a2a;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -1586,8 +1556,8 @@ body {
 
 .star__empty {
   margin-left: -3px;
-  color: #afafaf;
   letter-spacing: 1.92px;
+  color: #afafaf;
   font-weight: 500;
   font-size: 16px;
   font-family: 'FontAwesome';
@@ -1685,8 +1655,8 @@ body {
 
 .news-title {
   padding-top: 5px;
-  color: #d58e32;
   text-transform: uppercase;
+  color: #d58e32;
   font-weight: 500;
   font-size: 22px;
   font-family: 'Poppins';
@@ -1778,9 +1748,9 @@ body {
 }
 
 .footer-item__title {
-  color: #fff;
   text-transform: uppercase;
   line-height: 30px;
+  color: #fff;
   font-weight: 500;
   font-size: 22px;
   font-family: 'Poppins';
@@ -1798,8 +1768,8 @@ body {
 }
 
 .footer-link__item {
-  color: #a9a9a9;
   line-height: 30px;
+  color: #a9a9a9;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
@@ -1857,6 +1827,29 @@ body {
   color: #d58e32;
 }
 
+.label {
+  padding: 2px;
+  font-size: 12px;
+  z-index: 10;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  display: block;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgba(102, 153, 153, 0.835);
+  color: #fff;
+}
+
 @media (min-width: 1800px) {
   .label:after {
     content: 'mdf1-1800->';
@@ -1864,20 +1857,16 @@ body {
 }
 
 @media (max-width: 1799px) {
-  .label:after {
-    content: 'mdf2-1200-1799';
-  }
-
   .nav-link {
     padding-left: 20px;
+  }
+
+  .label:after {
+    content: 'mdf2-1200-1799';
   }
 }
 
 @media (max-width: 1199px) {
-  .label:after {
-    content: 'mdf3-900-1199';
-  }
-
   .container {
     padding: 0 20px;
   }
@@ -1916,17 +1905,12 @@ body {
     padding: 38px 17px;
   }
 
-  .pictures-main {
-    width: 38vw;
-    height: 42vw;
+  .label:after {
+    content: 'mdf3-900-1199';
   }
 }
 
 @media (max-width: 899px) {
-  .label:after {
-    content: 'mdf4-600-899';
-  }
-
   .navigation {
     -webkit-box-align: space-between;
     -ms-flex-align: space-between;
@@ -1949,7 +1933,7 @@ body {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 200px;
     flex: 0 1 200px;
-    width: 0;
+    width: 0px;
   }
 
   .gamburger {
@@ -1979,18 +1963,12 @@ body {
     height: 60px;
   }
 
-  .product-pictures {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+  .label:after {
+    content: 'mdf4-600-899';
   }
 }
 
 @media (max-width: 599px) {
-  .label:after {
-    content: 'mdf5-400-599';
-  }
-
   .phone__number {
     font-size: .8rem;
   }
@@ -2042,6 +2020,10 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .label:after {
+    content: 'mdf5-400-599';
   }
 }
 

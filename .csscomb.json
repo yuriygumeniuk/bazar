@@ -239,7 +239,6 @@
         "-webkit-box-shadow",
         "-moz-box-shadow",
         "box-shadow",
-        "color",
         "table-layout",
         "caption-side",
         "empty-cells",
@@ -427,6 +426,7 @@
         "orientation"
     ],
     [
+        "color",
         "font",
         "font-weight",
         "font-style",

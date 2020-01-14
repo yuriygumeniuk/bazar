@@ -27,7 +27,11 @@ gulp.task('html', function() {
 });
 
 gulp.task('server', ['styles', 'html'], function() {
-	browserSync.init({server: { baseDir: './app/'}});
+	browserSync.init({
+		server: { baseDir: './app/'},
+		browser: 'chrome',
+		notify: true
+	});
 
 	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){gulp.start('styles');});
 	watch('./app/#source/html/*.html', {readDelay: 500}, function(){gulp.start('html');});
@@ -67,5 +71,6 @@ gulp.task('comb', function() {
 gulp.task('notpref', function() {
   return gulp.src('./app/#source/scss/style.scss')
     .pipe(sass())
+    .pipe(csscomb())
     .pipe(gulp.dest('./app/#source/scss'));
 });

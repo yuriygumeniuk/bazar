@@ -7,8 +7,26 @@ var autoprefixer= require('gulp-autoprefixer');
 var watch 		= require('gulp-watch');
 var gcmq		= require('gulp-group-css-media-queries');
 var csscomb		= require('gulp-csscomb');
+var fileinclude		= require('gulp-file-include');
 
-gulp.task('server', ['styles'], function() {
+gulp.task('html', function() {
+	return gulp.src('./app/#source/html/*.html')
+	.pipe(plumber({
+		errorHandler: notify.onError(function(err){
+			return {
+				title: 'HTML include',
+				sound: false,
+				message: err.message
+			}
+		})
+	}))
+	.pipe(fileinclude({
+		prefix: '@@'
+	}))
+	.pipe(gulp.dest('./app/'))
+});
+
+gulp.task('server', ['styles', 'html'], function() {
 	
 	browserSync.init({
 		server: { baseDir: './app/'}
@@ -19,7 +37,10 @@ gulp.task('server', ['styles'], function() {
 	watch('./app/#source/**/*.scss', {readDelay: 500}, function(){
 		gulp.start('styles');
 	});
-
+	
+	watch('./app/html/*.html', {readDelay: 500}, function(){
+		gulp.start('styles');
+	});
 });
 
 gulp.task('styles', function() {

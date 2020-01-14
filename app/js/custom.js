@@ -1,11 +1,14 @@
 $(document).ready(function () {
-
+// ==============================================
+$('.label').text($(window).width());
+$('.label').append('&nbsp;');
 	if($(window).width() <= 599) {
 		$('meta[name="viewport"]').remove();  
-		console.log('run');
 		$('head').append( '<meta name="viewport" content="width=599, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
 	}
 	window.addEventListener("resize", function() {
+		$('.label').text($(window).width());
+		$('.label').append('&nbsp;');
 		if($(window).width() <= 599) {
 			if ($('meta[name=viewport]').is('[content^="width=device-width"]')) {
 				$('meta[name=viewport]').remove();
@@ -19,7 +22,6 @@ $(document).ready(function () {
 			}
 		}
 	}, false);
-
 
   $('.link__item a').click(function(){
 	$(this).parents('.nav-link-list').find('.link__item').removeClass('active');
@@ -69,7 +71,6 @@ $(document).ready(function () {
 // ===============================================================
 //FORMS
 function forms(){
-	console.log('run forms()');
 	//FIELDS
 	$('input,textarea').focus(function(){
 		if($(this).val() == $(this).attr('data-value')){
@@ -87,7 +88,6 @@ function forms(){
 			if($(this).hasClass('l') && $(this).parent().find('.form__label').length==0){
 				$(this).parent().append('<div class="form__label">'+$(this).attr('data-value')+'</div>');
 			}else{
-				console.log('data-value');
 				this.value = $(this).attr('data-value');
 			}
 		}
@@ -100,7 +100,6 @@ function forms(){
 		}
 
 		$(this).click(function() {
-			console.log('function click'); 
 			if (this.value == $(this).attr('data-value')) {
 				if($(this).attr('data-type')=='pass'){
 					$(this).attr('type','password');
@@ -109,7 +108,6 @@ function forms(){
 			};
 		});
 		$(this).blur(function() {
-			console.log('blur');
 			if (this.value == '') {
 				if(!$(this).hasClass('l')){
 					this.value = $(this).attr('data-value');
@@ -140,14 +138,12 @@ forms();
 $('form button[type=submit]').click(function(){
 	var er=0;
 	var form=$(this).parents('form');
-	console.log(form);
 	var ms=form.data('ms');
 	$.each(form.find('.req'), function(index, val) {
 		er+=formValidate($(this));
 	});
 	if(er==0){
 		removeFormError_s(form);
-		console.log('removeFormError_s' + form);
 		if(ms!=null && ms!=''){
 			showMessageByClass(ms);
 			return false;
@@ -159,9 +155,7 @@ $('form button[type=submit]').click(function(){
 function formValidate(input){
 	var er=0;
 	var form=input.parents('form[name="review"]');
-	console.log('validate');
 	if(input.attr('name')=='email' || input.hasClass('email')){
-		console.log('is email');
 		if(input.val()!=input.attr('data-value')){
 			var em=input.val().replace(" ","");
 			input.val(em);
@@ -170,18 +164,15 @@ function formValidate(input){
 				er++;
 			addError(input);
 		}else{
-			console.log('remove err email');
 			removeError(input);
 		}
 	}
 	else{
 		if(input.val()=='' || input.val()==input.attr('data-value')){
 			er++;
-			console.log('add error email');
 			addError(input);
 		}else{
 			removeError(input);
-			console.log('remove err email');
 		}
 	}
 	if(input.attr('type')=='checkbox'){
@@ -195,7 +186,6 @@ function formValidate(input){
 	if(input.hasClass('name')){
 		if(!(/^[А-Яа-яa-zA-Z-\s]+$/.test(input.val()))){
 			er++;
-			console.log('formValidate(name) er='+ er);
 		}
 	}
 	if(input.hasClass('pass-2')){
@@ -222,7 +212,6 @@ function showMessage(html){
 	$('.popup-message-body').show().html(html);
 }
 function clearForm(form){
-	console.log('clear');
 	$.each(form.find('.input'), function(index, val) {
 		$(this).removeClass('focus').val($(this).data('value'));
 		$(this).parent().removeClass('focus');
@@ -278,10 +267,10 @@ function removeError(input){
 	}
 }
 function removeFormError_s(form){
-	console.log('removeFormError_s removeClass(err)')
 	form.find('.err').removeClass('err');
 	form.find('.form__error').remove(); 
 }
 // ===============================================================
 
 });
+

@@ -42,7 +42,7 @@ $('.label').append('&nbsp;');
   var mySwiper = new Swiper ('.swiper-container', {
 	roundLengths: true,
 	slidesPerView: 4,
-	// slidesPerGroup: 3,
+	slidesPerGroup: 2,
 	speed: 2000,
 	spaceBetween: 8,
 	freeMode: false,

@@ -5,15 +5,15 @@ h1 , h2 , h3 , h4 , h5 , h6 {
 }
 h1 {
 	text-transform: uppercase;
-	line-height: 63.46px;
 
+	line-height: 63.46px;
 	font-weight: 500;
 	font-size: 24px;
 }
 h2 {
 	text-transform: uppercase;
-	line-height: 28px;
 
+	line-height: 28px;
 	font-weight: 500;
 	font-size: 22px;
 	font-family: 'Poppins';
@@ -27,14 +27,12 @@ h3 {
 }
 h4 {
 	line-height: 41px;
-
 	font-weight: 500;
 	font-size: 22px;
 	font-family: 'Poppins';
 }
 h5 {
 	line-height: 25px;
-
 	font-weight: 500;
 	font-size: 15px;
 	font-family: 'Poppins';
@@ -101,9 +99,8 @@ body {
 	padding-left: 0;
 }
 .control-nav__block a {
-	line-height: 42px;
-
 	color: #fff;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
@@ -128,9 +125,9 @@ body {
 }
 .control-nav__arrow {
 	text-transform: uppercase;
-	line-height: 74px;
 
 	color: #fff;
+	line-height: 74px;
 	font-weight: 500;
 	font-size: 16px;
 	font-family: 'FontAwesome';
@@ -146,18 +143,17 @@ body {
 	margin-left: 0;
 }
 .control-login__awesome {
-	line-height: 42px;
-
 	color: #fff;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 16px;
 	font-family: 'FontAwesome';
 }
 .control-login__text {
 	padding-left: 9px;
-	line-height: 42px;
 
 	color: #fff;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
@@ -181,18 +177,17 @@ body {
 	flex: 0 1 auto;
 }
 .phone__img {
-	line-height: 42px;
-
 	color: #d58e32;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 44px;
 	font-family: 'FontAwesome';
 }
 .phone__number {
 	padding-left: 13px;
-	line-height: 42px;
 
 	color: #d8d8d8;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 17px;
 	font-family: 'Poppins';
@@ -231,15 +226,14 @@ body {
 }
 .cart__img {
 	padding-top: 3px;
-	line-height: 42px;
 
 	color: #fff;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 20px;
 	font-family: 'FontAwesome';
 }
 .cart__total {
-	/*----view----*/
 	position: absolute;
 	right: -21px;
 	bottom: 10px;
@@ -250,9 +244,9 @@ body {
 	height: 29px;
 	border-radius: 50%;
 	background-color: #363636;
-	line-height: 42px;
 
 	color: #e0e3ed;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
@@ -317,9 +311,9 @@ body {
 	display: block;
 	margin: 0 5px;
 	width: 40px;
-	line-height: 42px;
 
 	color: #d58e32;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 22px;
 	font-family: 'FontAwesome';
@@ -330,9 +324,9 @@ body {
 }
 .select__text {
 	white-space: nowrap;
-	line-height: 42px;
 
 	color: #2a2a2a;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
@@ -344,9 +338,9 @@ body {
 .select__arrow {
 	margin-right: 5px;
 	text-transform: uppercase;
-	line-height: 74px;
 
 	color: #2a2a2a;
+	line-height: 74px;
 	font-weight: 500;
 	font-size: 16px;
 	font-family: 'FontAwesome';
@@ -379,9 +373,9 @@ body {
 	margin-left: 13px;
 	width: calc(100% - 50px);
 	border: none;
-	line-height: 42px;
 
 	color: #a4a4a4;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
@@ -463,7 +457,6 @@ body {
 	height: 94px;
 	border-top: 4px solid rgba(42, 42, 42, 0);
 	background-color: #fff;
-	/*----view----*/
 
 	color: #2a2a2a;
 
@@ -564,7 +557,6 @@ body {
 	height: 37px;
 	border: 1px solid #2a2a2a;
 	text-transform: uppercase;
-	/*----view----*/
 
 	color: #2a2a2a;
 	font-weight: 500;
@@ -675,18 +667,18 @@ body {
 }
 .product__title span {
 	margin-right: auto;
-	line-height: 41px;
 
 	color: #2a2a2a;
+	line-height: 41px;
 	font-weight: 500;
 	font-size: 24px;
 	font-family: 'Poppins';
 }
 .rating-stars {
 	letter-spacing: 1.92px;
-	line-height: 2;
 
 	color: #2a2a2a;
+	line-height: 2;
 	font-weight: 500;
 	font-size: 16px;
 	font-family: 'FontAwesome';
@@ -716,9 +708,9 @@ body {
 }
 .rating-add {
 	margin-left: 13px;
-	line-height: 30px;
 
 	color: #676767;
+	line-height: 30px;
 	font-weight: 500;
 	font-size: 12px;
 	font-family: 'Poppins', sans-serif;
@@ -738,9 +730,8 @@ body {
 	margin: 3px 0;
 }
 .price-old span {
-	line-height: 52.71px;
-
 	color: #939393;
+	line-height: 52.71px;
 	font-weight: 300;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
@@ -755,9 +746,8 @@ body {
 	background-color: #2a2a2a;
 }
 .price-new span {
-	line-height: 52.71px;
-
 	color: #fff;
+	line-height: 52.71px;
 	font-weight: 500;
 	font-size: 22px;
 	font-family: 'Poppins';
@@ -790,9 +780,9 @@ body {
 }
 .add-btn-text {
 	text-transform: uppercase;
-	line-height: 42px;
 
 	color: #fff;
+	line-height: 42px;
 	font-weight: 500;
 	font-size: 13px;
 	font-family: 'Poppins';
@@ -870,9 +860,9 @@ body {
 .overview p {
 	margin-top: 12px;
 	width: 570px;
-	line-height: 25px;
 
 	color: #676767;
+	line-height: 25px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
@@ -887,7 +877,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	/*----view----*/
 
 	color: #2a2a2a;
 	font-weight: 500;
@@ -899,7 +888,6 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	margin-left: 13px;
-	/*----view----*/
 
 	color: #676767;
 	font-weight: 500;
@@ -968,12 +956,10 @@ body {
 	width: 154px;
 	height: 53px;
 	border-right: 1px solid #c2c2c2;
-	// border-bottom: 1px solid #c2c2c2;
 	border-bottom: 1px solid #c2c2c2;
 	background-color: #fff;
 	text-transform: uppercase;
 	transition: all .2s linear;
-	/*----view----*/
 
 	color: #2a2a2a;
 	font-weight: 500;
@@ -1009,7 +995,7 @@ body {
 	visibility: visible;
 	align-items: flex-start;
 	flex-direction: column;
-	margin: 31px 0 0 37px;
+	margin: 30px;
 	opacity: 1;
 	transition: opacity 1000ms;
 	span {
@@ -1047,10 +1033,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-top: 29px;
+	width: 100%;
 }
 .textarea {
 	padding: 10px;
-	width: 1060px;
+	max-width: 1060px;
 	height: 99px;
 	border: 1px solid #c2c2c2;
 	resize: none;
@@ -1075,19 +1062,24 @@ body {
 .review-publish {
 	display: flex;
 	margin-top: 17px;
-	width: 1060px;
+	max-width: 1060px;
+	width: 100%;
 	height: 52px;
+}
+.review__name , .review__email {
+	flex: 1 1 auto;
+	margin-right: 30px;
 }
 .review-field {
 	margin-right: 18px;
 	margin-bottom: 15px;
 	padding-left: 13px;
-	width: 446px;
-	height: 51px;	/*----view----*/
+	width: 100%;
+	height: 51px;
 	border: 1px solid #c2c2c2;
-	line-height: 24px;
 
 	color: #676767;
+	line-height: 24px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
@@ -1100,7 +1092,6 @@ body {
 	background-color: #2a2a2a;
 	text-transform: uppercase;
 	cursor: pointer;
-	/*----view----*/
 
 	color: #fff;
 	font-weight: 500;
@@ -1174,7 +1165,6 @@ body {
 	background-color: #2a2a2a;
 	text-align: center;
 	transform: translateX(50%);
-	/*----view----*/
 
 	color: #fff;
 	font-weight: 500;
@@ -1197,7 +1187,6 @@ body {
 	width: 87px;
 	height: 37px;
 	background-color: #2a2a2a;
-	/*----view----*/
 
 	color: #fff;
 	font-weight: 500;
@@ -1212,7 +1201,6 @@ body {
 	height: 37px;
 	background-color: #2a2a2a;
 	text-transform: uppercase;
-	/*----view----*/
 
 	color: #fff;
 	font-weight: 500;
@@ -1358,7 +1346,6 @@ body {
 	border: none;
 	border-radius: 5px;
 	background-color: #fff;
-	/*----view----*/
 
 	color: #b4b4b4;
 	font-weight: 500;
@@ -1398,9 +1385,9 @@ body {
 }
 .footer-item__title {
 	text-transform: uppercase;
-	line-height: 30px;
 
 	color: #fff;
+	line-height: 30px;
 	font-weight: 500;
 	font-size: 22px;
 	font-family: 'Poppins';
@@ -1411,9 +1398,8 @@ body {
 	margin-top: 15px;
 }
 .footer-link__item {
-	line-height: 30px;
-
 	color: #a9a9a9;
+	line-height: 30px;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;

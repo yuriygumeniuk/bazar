@@ -287,7 +287,6 @@
         "hyphens",
         "letter-spacing",
         "src",
-        "line-height",
         "opacity",
         "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
         "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
@@ -428,6 +427,7 @@
     [
         "color",
         "font",
+        "line-height",
         "font-weight",
         "font-style",
         "font-variant",

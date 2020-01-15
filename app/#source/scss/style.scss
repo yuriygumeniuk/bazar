@@ -1101,8 +1101,11 @@ body {
 /*---------- section new ----------*/
 .new {
 	margin-top: 60px;
-	width: 1141px;
-	height: 530px;
+	margin-bottom: 3rem;
+	max-height: 530px;
+}
+.new-title-block {
+	width: 100%;
 }
 .new-hr {
 	display: flex;
@@ -1110,7 +1113,7 @@ body {
 	margin-top: 10px;
 }
 .hr-grey {
-	width: 1050px;
+	flex: 1 1 auto;
 	height: 3px;
 	background-color: #e2e2e2;
 }
@@ -1121,6 +1124,7 @@ body {
 }
 .dots {
 	display: flex;
+	flex: 0 1 auto;
 	margin-left: 26px;
 }
 .dot-black {
@@ -1141,19 +1145,24 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 25px;
-	height: 470px;
+	max-height: 470px;
 }
 .new-item {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	width: 262px;
+	margin-right: 20px;
+	max-width: 262px;
+	width: 100%;
 }
 .new-item__img {
 	position: relative;
-	width: 262px;
-	height: 260px;
-	background-color: #f4f5f7;
+	max-width: 262px;
+	max-height: 260px;
+	width: 100%;
+	height: calc(26vw - 20px);
+	border: 1px solid #efefef;
+	border-bottom: none;
 }
 .sale {
 	position: absolute;
@@ -1178,13 +1187,16 @@ body {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	span {
+		font-size: .7rem;
+	}
 }
 .quick-view-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 2px;
-	width: 87px;
+	padding: 0 5px;
+	max-width: 87px;
 	height: 37px;
 	background-color: #2a2a2a;
 
@@ -1197,7 +1209,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 132px;
+	padding: 0 5px;
+	max-width: 132px;
 	height: 37px;
 	background-color: #2a2a2a;
 	text-transform: uppercase;
@@ -1218,8 +1231,9 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	width: 262px;
-	height: 150px;
+	max-width: 262px;
+	max-height: 150px;
+	width: 100%;
 	border: 1px solid #efefef;
 	border-top: none;
 }
@@ -1256,7 +1270,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin-top: 20px;
-	width: 240px;
+	max-width: 240px;
+	width: 100%;
 	height: 1px;
 	background-color: #2a2a2a;
 }
@@ -1268,8 +1283,9 @@ body {
 .new-btn-block {
 	display: flex;
 	align-items: center;
+	flex: 1 1 87px;
 	justify-content: space-between;
-	padding: 18px 11px 0;
+	padding: 13px 11px 5px;
 	width: 100%;
 }
 .new-like-next-btn {

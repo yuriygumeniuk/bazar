@@ -40,7 +40,7 @@ $('.label').append('&nbsp;');
   });
   // ==============
   var mySwiper = new Swiper ('.swiper-container', {
-	roundLengths: true,
+	// roundLengths: true,
 	slidesPerView: 4,
 	slidesPerGroup: 2,
 	speed: 2000,
@@ -53,7 +53,7 @@ $('.label').append('&nbsp;');
 	  },
   });
   var mySwiper = new Swiper ('.new-block', {
-	roundLengths: true,
+	// roundLengths: true,
 	slidesPerView: 4,
 	spaceBetween: 22,
 	freeMode: false,

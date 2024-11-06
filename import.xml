@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-11-06 12:20">
+    <currencies>
+        <currency id="UAH" rate="1.00" />
+    </currencies>
+    <offer id="83156" available="true">
+        <name>Аккумулятор Vitals Master ASL 3640a</name>
+        <name_ua>Акумуляторний пристрій живлення Vitals Master ASL 3640a для ручного електричного інструмента</name_ua>
+        <vendor>Vitals</vendor>
+        <vendorCode>83156</vendorCode>
+        <currencyId>UAH</currencyId>
+        <price>4469.00</price>
+        <available>true</available>
+        <country_of_origin>Латвия</country_of_origin>
+    </offer>
+</yml_catalog>

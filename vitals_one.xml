@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="2024-11-06 12:54">
     <shop>
+        <currencies>
+            <currency id="UAH" rate="1" />
+        </currencies>
+        <categories>
+            <category id="333">TEST</category>
+        </categories>
         <offers>
-            <offer id="991188">
+            <offer id="991188" available="true">
                 <price>5245.0000</price>
-                <available>true</available>
-                <quantity_in_stock>0</quantity_in_stock>
+                <currencyId>UAH</currencyId>
+                <categoryId>333</categoryId>
+                <vendor>VITALS</vendor>
                 <vendorCode>000157568</vendorCode>
-                <articlCode>157568</articlCode>
                 <param name="Напруга, В">230
                 </param>
                 <param name="Частота струму, Гц">50</param>

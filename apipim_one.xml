@@ -1,9 +1,5 @@
-<?xml version='1.0' encoding='utf-8-sig'?>
 <yml_catalog date="2024-12-27 18:09">
     <shop>
-        <name>Al-KO</name>
-        <company>Al-KO Kober</company>
-        <url>https://alko-garden.com.ua</url>
         <currencies>
             <currency id="UAH" rate="1" />
         </currencies>
@@ -52,7 +48,7 @@
                 <categoryId>1</categoryId>
                 <picture>https://alko-garden.com.ua/out/pictures/master/product/1/al-ko-113278-moweo-3-85-li.jpg</picture>
                 <vendor>AL-KO</vendor>
-                <articlCod>113278</articlCod>
+                <articlCode>113278</articlCode>
                 <name>Газонокосарка акумуляторна Moweo 38.5 Li</name>
                 <description>&lt;![CDATA[Акумулятор Li-Ion 36 V / 4,0 Ah (144 Wh), час зарядки акумулятора 90 хв, акумулятор та зарядний пристрій в комплекті, ширина захвату 37 см, висота зрізу 25-75 мм, травозбірник 45 л, полімерний корпус, площа до 250 м²]]&gt;</description>
                 <param name="Штрихкод">4003718055009</param>

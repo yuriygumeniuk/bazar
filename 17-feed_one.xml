@@ -1,0 +1,568 @@
+<yml_catalog date="2024-12-27 00:18">
+    <shop>
+        <currencies>
+            <currency id="UAH" rate="1" />
+        </currencies>
+        <categories>
+            <category id="2" parentId="1">Главная</category>
+            <category id="3">Ручной инструмент</category>
+            <category id="21">Пневмоинструмент</category>
+            <category id="10">Расходные материалы</category>
+            <category id="37">Спецодежда и СИЗ</category>
+            <category id="58">Ящики и сумки для инструментов</category>
+            <category id="39">Электроинструмент</category>
+            <category id="268">Распродажа</category>
+            <category id="590">Садовая техника</category>
+            <category id="736">Снято с производства</category>
+            <category id="801">Станки и оборудование</category>
+            <category id="5" parentId="3">Шарнирно губцевый инструмент</category>
+            <category id="78" parentId="3">Труборезы ручные</category>
+            <category id="12" parentId="3">Ключи моментные</category>
+            <category id="36" parentId="3">Мультипликаторы</category>
+            <category id="161" parentId="3">Ножовки и пилы</category>
+            <category id="64" parentId="3">Универсальные наборы</category>
+            <category id="14" parentId="3">Гаечные ключи</category>
+            <category id="79" parentId="3">Пистолет для заклёпок</category>
+            <category id="4" parentId="3">Гoлoвки тopцeвыe и нaбopы</category>
+            <category id="45" parentId="3">Отвертки</category>
+            <category id="235" parentId="3">Съемник и наборы</category>
+            <category id="16" parentId="3">Специальный инструмент</category>
+            <category id="23" parentId="3">Инструменты для электриков</category>
+            <category id="28" parentId="3">Резьбонарезной инструмент</category>
+            <category id="42" parentId="3">Измерительный инструмент</category>
+            <category id="50" parentId="3">Тиски слесарные</category>
+            <category id="57" parentId="3">Ударный ручной инструмент</category>
+            <category id="68" parentId="3">Трещотки, удлинители, воротки, карданы</category>
+            <category id="73" parentId="3">Шприцы для консистентной смазки</category>
+            <category id="75" parentId="3">Струбцины</category>
+            <category id="98" parentId="3">Ножи</category>
+            <category id="132" parentId="3">Наборы инструмента в ложементах</category>
+            <category id="137" parentId="3">Монтировки</category>
+            <category id="143" parentId="3">Столярный инструмент</category>
+            <category id="147" parentId="3">Напильники</category>
+            <category id="378" parentId="3">Инструмент для работы с трубами</category>
+            <category id="530" parentId="3">Ножницы</category>
+            <category id="54" parentId="10">Биты</category>
+            <category id="55" parentId="10">Наборы бит</category>
+            <category id="31" parentId="10">Держатели бит</category>
+            <category id="331" parentId="10">Наборы сверел и буров</category>
+            <category id="607" parentId="10">Буры по бетону</category>
+            <category id="11" parentId="10">Сверла по металлу</category>
+            <category id="148" parentId="10">Сверла по дереву</category>
+            <category id="193" parentId="10">Сверла по стеклу и плитке</category>
+            <category id="637" parentId="10">Сверло по мультиматериалам</category>
+            <category id="330" parentId="10">Сверла по кирпичу и камню</category>
+            <category id="35" parentId="10">Коронки</category>
+            <category id="382" parentId="10">Коронки алмазные</category>
+            <category id="232" parentId="10">Пилки для лобзика</category>
+            <category id="554" parentId="10">Пилки для саб.пилы</category>
+            <category id="420" parentId="10">Диск алмазный</category>
+            <category id="239" parentId="10">Полотна для ножовок</category>
+            <category id="83" parentId="10">Диски</category>
+            <category id="74" parentId="10">Кабельные наконечники</category>
+            <category id="306" parentId="10">Шнуры разметочные</category>
+            <category id="376" parentId="10">Строительные карандаши и маркеры</category>
+            <category id="381" parentId="10">Долото</category>
+            <category id="440" parentId="10">Круги отрезные</category>
+            <category id="459" parentId="10">Шлифовальный круг</category>
+            <category id="431" parentId="10">Лепестковые круги</category>
+            <category id="425" parentId="10">Гвозди/скобы</category>
+            <category id="418" parentId="10">Кольцевые фрезы</category>
+            <category id="443" parentId="10">Полотно для ленточной пилы</category>
+            <category id="457" parentId="10">Шлифовальная бумага</category>
+            <category id="458" parentId="10">Шлифовальные ленты</category>
+            <category id="552" parentId="10">Многофункциональный инструмент</category>
+            <category id="577" parentId="10">Ступенчатые сверла</category>
+            <category id="587" parentId="10">Полировальные круги/ пасты</category>
+            <category id="613" parentId="10">Фрезы/борфрезы</category>
+            <category id="636" parentId="10">Дюбели</category>
+            <category id="171" parentId="21">Пневмогайковерты</category>
+            <category id="51" parentId="21">Пистолеты для подкачки</category>
+            <category id="127" parentId="21">Пистолеты для покраски</category>
+            <category id="169" parentId="21">Продувочные пистолеты</category>
+            <category id="56" parentId="21">Подготовка воздуха</category>
+            <category id="63" parentId="21">Пневматические трещотки</category>
+            <category id="87" parentId="21">Пневмашланги</category>
+            <category id="144" parentId="21">Пескоструйная обработка</category>
+            <category id="155" parentId="21">Пистолеты для герметиков</category>
+            <category id="278" parentId="21">Пневматические бормашины</category>
+            <category id="281" parentId="21">Антикоррозийная обработка</category>
+            <category id="282" parentId="21">Пистолеты для воды</category>
+            <category id="134" parentId="21">Специальный инструмент</category>
+            <category id="166" parentId="21">Пневма разъемы</category>
+            <category id="194" parentId="21">Ремкомплекты для пневматического инструмента</category>
+            <category id="269" parentId="268">Распродажа инструмент</category>
+            <category id="270" parentId="268">Распродажа оборудование</category>
+            <category id="286" parentId="58">Наборы ящиков</category>
+            <category id="71" parentId="58">Ящики</category>
+            <category id="724" parentId="58">Ящики с вставками EVA</category>
+            <category id="727" parentId="58">Ящики на колесах</category>
+            <category id="325" parentId="58">Органайзеры</category>
+            <category id="179" parentId="58">Тележки</category>
+            <category id="588" parentId="58">Аксессуары PACKOUT</category>
+            <category id="65" parentId="58">Верстаки</category>
+            <category id="631" parentId="58">Рюкзаки для инструмента</category>
+            <category id="95" parentId="58">Сумки для инструмента</category>
+            <category id="59" parentId="58">Системы хранения</category>
+            <category id="326" parentId="58">Лотки сортировочные</category>
+            <category id="558" parentId="58">Термокружка/бутылка</category>
+            <category id="524" parentId="58">Запчасти</category>
+            <category id="725" parentId="58">Козлы складные</category>
+            <category id="726" parentId="58">Панели для инструментов</category>
+            <category id="740" parentId="58">Стул слесаря</category>
+            <category id="766" parentId="58">Пояса и сумки</category>
+            <category id="559" parentId="39">Аккумуляторный насос</category>
+            <category id="427" parentId="39">Алмазный инструмент</category>
+            <category id="505" parentId="39">Аккумуляторы</category>
+            <category id="386" parentId="39">Вибратор для бетона</category>
+            <category id="410" parentId="39">Видеоскопы</category>
+            <category id="377" parentId="39">Гайковерты</category>
+            <category id="362" parentId="39">Гвоздезабиватель</category>
+            <category id="195" parentId="39">Дрели - шуруповерты</category>
+            <category id="290" parentId="39">Зарядное устройство</category>
+            <category id="391" parentId="39">Заклепочники</category>
+            <category id="301" parentId="39">Измерительные инструменты</category>
+            <category id="462" parentId="39">Инструмент для работы с трубами</category>
+            <category id="389" parentId="39">Кабелерезы</category>
+            <category id="360" parentId="39">Многофункциональный инструмент</category>
+            <category id="361" parentId="39">Наборы инструментов М12\М18</category>
+            <category id="472" parentId="39">Ножницы по металлу</category>
+            <category id="478" parentId="39">Насосы для перекачки</category>
+            <category id="390" parentId="39">Обжим кабелей</category>
+            <category id="397" parentId="39">Отбойные молотки</category>
+            <category id="473" parentId="39">Паяльники</category>
+            <category id="197" parentId="39">Перфораторы</category>
+            <category id="238" parentId="39">Пистолеты горячего воздуха</category>
+            <category id="429" parentId="39">Пистолеты для герметиков</category>
+            <category id="392" parentId="39">Прочистные машины</category>
+            <category id="196" parentId="39">Пилы</category>
+            <category id="363" parentId="39">Пылесос</category>
+            <category id="481" parentId="39">Протяжка кабеля</category>
+            <category id="480" parentId="39">Пробойники</category>
+            <category id="380" parentId="39">Радио</category>
+            <category id="535" parentId="39">Резьбонарезной инструмент</category>
+            <category id="499" parentId="39">Степлер</category>
+            <category id="80" parentId="39">Светильники</category>
+            <category id="502" parentId="39">Фрезер</category>
+            <category id="214" parentId="39">Шлифмашины</category>
+            <category id="421" parentId="39">Шпилькорез</category>
+            <category id="439" parentId="39">Штроборез</category>
+            <category id="450" parentId="39">Шприцы для консистентной смазки и масла</category>
+            <category id="423" parentId="39">Запчасти</category>
+            <category id="741" parentId="39">Системы безопасности</category>
+            <category id="743" parentId="39">Новинки</category>
+            <category id="798" parentId="39">Инструменты для детейлинга</category>
+            <category id="576" parentId="37">Одежда с подогревом</category>
+            <category id="91" parentId="37">Очки и маски</category>
+            <category id="167" parentId="37">Перчатки рабочие</category>
+            <category id="612" parentId="37">Наборы СИЗ</category>
+            <category id="585" parentId="37">Каски строительные защитные</category>
+            <category id="338" parentId="37">Спецодежда</category>
+            <category id="337" parentId="37">Спецобувь защитная</category>
+            <category id="120" parentId="37">Складские тележки</category>
+            <category id="342" parentId="37">Средства защиты слуха</category>
+            <category id="154" parentId="37">Наколенники</category>
+            <category id="426" parentId="37">Респираторы и маски</category>
+            <category id="428" parentId="37">Сигнальный жилет</category>
+            <category id="477" parentId="37">Страховка от падения</category>
+            <category id="635" parentId="37">Кепки/шапки</category>
+            <category id="746" parentId="37">Аптечка первой помощи</category>
+            <category id="767" parentId="37">Блокноты</category>
+            <category id="802" parentId="37">Термобелье</category>
+            <category id="622" parentId="590">Цепные пилы</category>
+            <category id="621" parentId="590">Косы и триммеры</category>
+            <category id="626" parentId="590">Кусторез</category>
+            <category id="624" parentId="590">Воздуходувки</category>
+            <category id="625" parentId="590">Газонокосилки</category>
+            <category id="627" parentId="590">Опрыскиватели</category>
+            <category id="628" parentId="590">Многофункциональная садовая система</category>
+            <category id="623" parentId="590">Наборы садового инструмента</category>
+            <category id="633" parentId="590">Запчасти</category>
+            <category id="17" parentId="801">Компрессорное оборудование</category>
+            <category id="33" parentId="801">Гидравлическое оборудование</category>
+            <category id="26" parentId="801">Сварочное оборудование</category>
+            <category id="89" parentId="801">Пуско-зарядные устройства</category>
+            <category id="797" parentId="801">Заточка сверел</category>
+            <category id="354" parentId="801">Станок сверлильный</category>
+            <category id="527" parentId="801">Генераторы</category>
+            <category id="800" parentId="801">Мойки для деталей</category>
+            <category id="803" parentId="801">Заточные станки</category>
+            <category id="6" parentId="5">Щипцы для стопорных колец</category>
+            <category id="60" parentId="5">Бокорезы</category>
+            <category id="62" parentId="5">Болторезы</category>
+            <category id="67" parentId="5">Захваты трубные</category>
+            <category id="128" parentId="5">Прецизионный инструмент</category>
+            <category id="84" parentId="5">Пассатижи</category>
+            <category id="85" parentId="5">Круглогубцы</category>
+            <category id="88" parentId="5">Сварочные зажимы</category>
+            <category id="96" parentId="5">Кабелерезы и ножницы для проволочных тросов</category>
+            <category id="102" parentId="5">Клещи арматурные (вязальные)</category>
+            <category id="130" parentId="5">Кусачки торцевые</category>
+            <category id="158" parentId="5">Ножницы по металлу ручные</category>
+            <category id="255" parentId="5">Електромонтажные клещи</category>
+            <category id="271" parentId="5">Инструменты с креплением для страховки от падения</category>
+            <category id="302" parentId="5">Наборы инструментов комбинированные</category>
+            <category id="15" parentId="14">Накидной</category>
+            <category id="32" parentId="14">Ключи баллонные</category>
+            <category id="41" parentId="14">Трубные ключи</category>
+            <category id="44" parentId="14">Специальные гаечные ключи</category>
+            <category id="104" parentId="14">Ключи Г-образные TORX</category>
+            <category id="105" parentId="14">Ключи Г-образные</category>
+            <category id="107" parentId="14">Комбинированный</category>
+            <category id="108" parentId="14">Гаечные ключи с трещоткой</category>
+            <category id="109" parentId="14">Дюймовые комбинированные гаечные ключи</category>
+            <category id="110" parentId="14">Рожковой</category>
+            <category id="111" parentId="14">Стартерные ключи</category>
+            <category id="112" parentId="14">Ключи накидные ударные</category>
+            <category id="114" parentId="14">Разводные ключи</category>
+            <category id="115" parentId="14">Разрезной</category>
+            <category id="116" parentId="14">Ключи рожковые</category>
+            <category id="117" parentId="14">Ключи рожковые ударные</category>
+            <category id="118" parentId="14">Ключи Г-образные HEX</category>
+            <category id="146" parentId="14">Наборы гаечных ключей</category>
+            <category id="24" parentId="23">Пинцеты</category>
+            <category id="30" parentId="23">Инструменты для удаления изоляции и оболочек</category>
+            <category id="94" parentId="23">Клещи для опрессовки</category>
+            <category id="106" parentId="23">Ключи для электрошкафов</category>
+            <category id="129" parentId="23">Антистатический инструмент ESD</category>
+            <category id="299" parentId="23">Тестеры, паяльники</category>
+            <category id="567" parentId="23">Протяжка кабеля</category>
+            <category id="29" parentId="28">Наборы для восстановления резьбы</category>
+            <category id="70" parentId="28">Держатели для метчиков</category>
+            <category id="92" parentId="28">Зенкера</category>
+            <category id="135" parentId="28">Метчики</category>
+            <category id="138" parentId="28">Наборы метчиков и плашек</category>
+            <category id="170" parentId="28">Плашки</category>
+            <category id="784" parentId="28">Экстракторы</category>
+            <category id="43" parentId="42">Уровни</category>
+            <category id="131" parentId="42">Линейки</category>
+            <category id="133" parentId="42">Угольники</category>
+            <category id="176" parentId="42">Рулетки</category>
+            <category id="186" parentId="42">Штангенциркули</category>
+            <category id="69" parentId="68">Воротки</category>
+            <category id="99" parentId="68">Карданы</category>
+            <category id="103" parentId="68">Планки и клипсы для головок</category>
+            <category id="145" parentId="68">Удлинители</category>
+            <category id="165" parentId="68">Переходники-адаптеры</category>
+            <category id="175" parentId="68">Ремкомплект трещетки</category>
+            <category id="183" parentId="68">Трещотки</category>
+            <category id="72" parentId="57">Выколотки</category>
+            <category id="81" parentId="57">Молотки</category>
+            <category id="93" parentId="57">Зубила</category>
+            <category id="101" parentId="57">Кернера</category>
+            <category id="90" parentId="89">Зарядные устройства</category>
+            <category id="164" parentId="89">Пусковые устройства</category>
+            <category id="182" parentId="89">Тестер аккумуляторов</category>
+            <category id="264" parentId="89">Зарядная станция для электромобилей</category>
+            <category id="275" parentId="89">Пускозарядные устройства</category>
+            <category id="284" parentId="89">Пусковые кабели</category>
+            <category id="327" parentId="89">Преобразователи</category>
+            <category id="119" parentId="16">Автомобильный инструмент</category>
+            <category id="190" parentId="16">Инструмент моторной группы</category>
+            <category id="191" parentId="16">Съемники маслянного фильтра</category>
+            <category id="206" parentId="16">Инструмент для ремонта подвески</category>
+            <category id="205" parentId="16">Гайколомы</category>
+            <category id="221" parentId="16">Щипцы для хомутов</category>
+            <category id="207" parentId="16">Ремкомплекты для специального инструмента</category>
+            <category id="139" parentId="45">Набор отверток</category>
+            <category id="201" parentId="45">Крестовые отвертки</category>
+            <category id="202" parentId="45">Шлицевые отвертки</category>
+            <category id="198" parentId="45">Отвертки TORX</category>
+            <category id="237" parentId="45">Цанговые отвертки</category>
+            <category id="203" parentId="45">Специальные отвертки</category>
+            <category id="285" parentId="45">Прецезионные отвертки</category>
+            <category id="781" parentId="45">Отвертки торцевые</category>
+            <category id="151" parentId="143">Набор стамесок</category>
+            <category id="157" parentId="143">Рубанки</category>
+            <category id="178" parentId="143">Стамески</category>
+            <category id="738" parentId="143">Рейсмус</category>
+            <category id="177" parentId="26">Сварочные полуавтоматы</category>
+            <category id="289" parentId="26">Сварочные аппараты (MMA)</category>
+            <category id="47" parentId="26">Аппараты точечной контактной сварки</category>
+            <category id="48" parentId="26">Аппараты плазменной резки</category>
+            <category id="242" parentId="26">Сварочные генераторы</category>
+            <category id="243" parentId="26">Индукционный нагреватель</category>
+            <category id="46" parentId="26">Сварочные аппараты аргонодуговой сварки</category>
+            <category id="27" parentId="26">Сварочное оборудование</category>
+            <category id="747" parentId="26">Сварочные маски</category>
+            <category id="215" parentId="75">Аксессуары для струбцин</category>
+            <category id="267" parentId="33">Стойка трансмиссионная</category>
+            <category id="266" parentId="33">Гидравлический пресс</category>
+            <category id="265" parentId="33">Гидравлический кран</category>
+            <category id="34" parentId="33">Домкраты гидравлические</category>
+            <category id="49" parentId="33">Автосервисное оборудование</category>
+            <category id="250" parentId="33">Гидравлические гайковерты</category>
+            <category id="251" parentId="33">Гидроцилиндры и домкраты</category>
+            <category id="252" parentId="33">Насосные гидравлические станции</category>
+            <category id="253" parentId="33">Фланцевый инструмент</category>
+            <category id="254" parentId="33">Гидравлические шланги и фитинги</category>
+            <category id="208" parentId="33">Ремкомплекты для гидравлики</category>
+            <category id="375" parentId="33">Таль цепная</category>
+            <category id="293" parentId="4">Головки 1/4"</category>
+            <category id="804" parentId="4">Головки ударные 1/4"</category>
+            <category id="294" parentId="4">Головки 3/8"</category>
+            <category id="805" parentId="4">Головки ударные 3/8"</category>
+            <category id="292" parentId="4">Головки 1/2" 6 гранные</category>
+            <category id="296" parentId="4">Головки 1/2" 12 гранные</category>
+            <category id="295" parentId="4">Головки ударные 1/2"</category>
+            <category id="297" parentId="4">Головки 3/4"</category>
+            <category id="298" parentId="4">Головки ударные 3/4"</category>
+            <category id="247" parentId="4">Головки 1"</category>
+            <category id="189" parentId="4">Головки ударные 1"</category>
+            <category id="291" parentId="4">Головки 1-1/2"</category>
+            <category id="211" parentId="4">Головки тип-Е</category>
+            <category id="210" parentId="4">Головки свечные</category>
+            <category id="7" parentId="4">Торцевые головки дюймовые</category>
+            <category id="141" parentId="4">Наборы торцевых головок</category>
+            <category id="230" parentId="4">Наборы торцевых головок дюймовых</category>
+            <category id="229" parentId="4">Наборы головок ударных</category>
+            <category id="209" parentId="4">Головки для поврежденных гаек</category>
+            <category id="308" parentId="17">Безмасляный компрессор</category>
+            <category id="52" parentId="17">Поршневые компрессоры</category>
+            <category id="66" parentId="17">Винтовые компрессоры</category>
+            <category id="124" parentId="17">Компрессорные блоки</category>
+            <category id="123" parentId="17">Компрессора с двигателем Honda</category>
+            <category id="53" parentId="17">Безмаслянные медицинские компрессоры</category>
+            <category id="20" parentId="17">Осушители</category>
+            <category id="122" parentId="17">Компрессора без ресивера</category>
+            <category id="18" parentId="17">Фильтры и аксессуары для компрессоров</category>
+            <category id="22" parentId="17">Запчасти для компрессоров</category>
+            <category id="335" parentId="17">Ресиверы</category>
+            <category id="344" parentId="54">Биты Phillips</category>
+            <category id="345" parentId="54">Биты Pozidriv</category>
+            <category id="347" parentId="54">Биты TORX</category>
+            <category id="348" parentId="54">Биты HEX</category>
+            <category id="346" parentId="54">Шлицевые биты</category>
+            <category id="371" parentId="54">Биты SPLINE</category>
+            <category id="563" parentId="54">Биты RIBE</category>
+            <category id="452" parentId="54">Торцевая насадка</category>
+            <category id="365" parentId="338">Кофты/худи</category>
+            <category id="366" parentId="338">Футболки</category>
+            <category id="368" parentId="338">Штаны рабочие</category>
+            <category id="369" parentId="338">Комбинезон</category>
+            <category id="370" parentId="338">Шорты</category>
+            <category id="38" parentId="338">Куртки</category>
+            <category id="367" parentId="338">Жилетки</category>
+            <category id="379" parentId="195">Дрели - шуроповерты аккумуляторные</category>
+            <category id="412" parentId="195">Винтоверты аккумуляторные</category>
+            <category id="742" parentId="195">Дрель миксер</category>
+            <category id="355" parentId="195">Дрели сетевые</category>
+            <category id="764" parentId="195">Аккумуляторная отвертка</category>
+            <category id="506" parentId="195">Комплектующие к инструменту</category>
+            <category id="384" parentId="197">Перфораторы аккумуляторные</category>
+            <category id="403" parentId="197">Перфораторы SDS-Plus</category>
+            <category id="441" parentId="197">Перфораторы SDS-MAX</category>
+            <category id="507" parentId="197">Система пылеотведения</category>
+            <category id="388" parentId="377">Гайковерты аккумуляторные</category>
+            <category id="407" parentId="377">Трещотки</category>
+            <category id="424" parentId="377">Гайковерты сетевые</category>
+            <category id="526" parentId="377">Комплектующие к инструменту</category>
+            <category id="413" parentId="389">Кабелерезы аккумуляторные</category>
+            <category id="469" parentId="389">Ремкомплекты для специального инструмента</category>
+            <category id="430" parentId="423">Дрели - шуроповерты аккумуляторные</category>
+            <category id="445" parentId="423">Трещотки</category>
+            <category id="446" parentId="423">Гайковерты аккумуляторные</category>
+            <category id="768" parentId="423">УШМ</category>
+            <category id="432" parentId="390">Матрица</category>
+            <category id="455" parentId="214">Болгарки (угловые шлифовальные машины)</category>
+            <category id="396" parentId="214">Шлифмашины угловые аккумуляторные</category>
+            <category id="398" parentId="214">Полировальная машина</category>
+            <category id="720" parentId="214">Шлифмашины вибрационные</category>
+            <category id="408" parentId="214">Шлифмашины прямые</category>
+            <category id="460" parentId="214">Эксцентриковые шлифмашины</category>
+            <category id="479" parentId="214">Рубанки</category>
+            <category id="719" parentId="214">Отрезные машины</category>
+            <category id="395" parentId="214">Ленточные шлифовальные машины</category>
+            <category id="464" parentId="462">Труборезы</category>
+            <category id="467" parentId="462">Расширительный инструмент</category>
+            <category id="514" parentId="462">Комплектующие к инструменту</category>
+            <category id="562" parentId="462">Обжим труб</category>
+            <category id="629" parentId="462">Расширительный инструмент UPONOR</category>
+            <category id="630" parentId="462">Обжим труб Geberit</category>
+            <category id="465" parentId="196">Лобзики аккумуляторные</category>
+            <category id="466" parentId="196">Лобзики сетевые</category>
+            <category id="401" parentId="196">Пилы аккумуляторные</category>
+            <category id="456" parentId="196">Пилы циркулярные сетевые</category>
+            <category id="470" parentId="196">Сабельные пилы</category>
+            <category id="722" parentId="196">Ленточные пилы</category>
+            <category id="561" parentId="196">Торцовочные пилы</category>
+            <category id="586" parentId="196">Направляющие шины</category>
+            <category id="511" parentId="196">Комплектующие к инструменту</category>
+            <category id="484" parentId="480">Комплектующие к инструменту</category>
+            <category id="492" parentId="331">Наборы свёрел по металлу</category>
+            <category id="493" parentId="331">Наборы буров по бетону</category>
+            <category id="494" parentId="331">Наборы свёрел по дереву</category>
+            <category id="495" parentId="331">Набор ступенчатых сверл</category>
+            <category id="765" parentId="331">Универсальные наборы сверел</category>
+            <category id="503" parentId="392">Комплектующие к инструменту</category>
+            <category id="515" parentId="392">Локаторы</category>
+            <category id="510" parentId="429">Комплектующие к инструменту</category>
+            <category id="513" parentId="502">Комплектующие к инструменту</category>
+            <category id="516" parentId="301">Комплектующие к инструменту</category>
+            <category id="566" parentId="427">Комплектующие к инструменту</category>
+            <category id="571" parentId="55">MILWAUKEE</category>
+            <category id="569" parentId="55">KING TONY</category>
+            <category id="568" parentId="55">IRWIN</category>
+            <category id="570" parentId="55">WIHA</category>
+            <category id="575" parentId="71">MILWAUKEE</category>
+            <category id="584" parentId="71">QBRICK SYSTEM</category>
+            <category id="606" parentId="71">KNIPEX</category>
+            <category id="785" parentId="71">TOUGHBUILT</category>
+            <category id="579" parentId="179">Комплектующие к инструменту</category>
+            <category id="583" parentId="80">Мачты осветительные</category>
+            <category id="580" parentId="80">Прожектора</category>
+            <category id="582" parentId="80">Налобные</category>
+            <category id="581" parentId="80">Штативы</category>
+            <category id="614" parentId="80">Портативные фонари</category>
+            <category id="615" parentId="80">Переходники SCANGRIP</category>
+            <category id="609" parentId="607">Буры SDS-PLUS</category>
+            <category id="608" parentId="607">Буры SDS-MAX</category>
+            <category id="611" parentId="607">Ударное сверло</category>
+            <category id="777" parentId="607">Сверло по бетону</category>
+            <category id="644" parentId="607">Удлинители SDS-PLUS/SDS-MAX</category>
+            <category id="616" parentId="286">MILWAUKEE</category>
+            <category id="620" parentId="286">QBRICK SYSTEM</category>
+            <category id="793" parentId="286">TOUGHBUILT</category>
+            <category id="617" parentId="12">Ключи предельного типа</category>
+            <category id="340" parentId="12">Шкальные динамометрические ключи</category>
+            <category id="279" parentId="12">Электронные моментные ключи</category>
+            <category id="341" parentId="12">Стрелочные ключи</category>
+            <category id="274" parentId="12">Шкала доворотная</category>
+            <category id="277" parentId="12">Насадки для динамоментрических ключей</category>
+            <category id="13" parentId="12">Ремкомплекты ключа динамометрического</category>
+            <category id="618" parentId="12">Динамометрические отвертки</category>
+            <category id="744" parentId="167">Тактические</category>
+            <category id="732" parentId="167">Перчатки для защиты от порезов</category>
+            <category id="730" parentId="167">Перчатки с защитой от удара</category>
+            <category id="734" parentId="167">Перчатки мягкие</category>
+            <category id="728" parentId="167">Перчатки беспалые</category>
+            <category id="729" parentId="167">Перчатки кожаные</category>
+            <category id="731" parentId="167">Перчатки зимние</category>
+            <category id="733" parentId="167">Нарукавники для защиты от порезов</category>
+            <category id="745" parentId="167">Женские</category>
+            <category id="735" parentId="167">Перчатки электрика</category>
+            <category id="748" parentId="167">Одноразовые</category>
+            <category id="749" parentId="167">Оптовые упаковки</category>
+            <category id="783" parentId="167">Химические перчатки</category>
+            <category id="757" parentId="420">76 мм</category>
+            <category id="756" parentId="420">115 мм</category>
+            <category id="755" parentId="420">125 мм</category>
+            <category id="760" parentId="420">150 мм</category>
+            <category id="762" parentId="420">180 мм</category>
+            <category id="758" parentId="420">230 мм</category>
+            <category id="763" parentId="420">300 мм</category>
+            <category id="759" parentId="420">350 мм</category>
+            <category id="761" parentId="420">400 мм</category>
+            <category id="769" parentId="98">Складные ножи</category>
+            <category id="794" parentId="98">Ножи выдвижные</category>
+            <category id="795" parentId="98">Ножи с фикс лезвием</category>
+            <category id="796" parentId="98">Ножи специальные</category>
+            <category id="471" parentId="98">Лезвия для ножей</category>
+            <category id="780" parentId="35">Коронки биметаллические </category>
+            <category id="778" parentId="35">Коронка по мультиматериалам</category>
+            <category id="779" parentId="35">Коронка по пластику и гипсокартону</category>
+            <category id="434" parentId="35">Набор коронок</category>
+            <category id="737" parentId="35">Хвостовики / сверла направляющие / удлинители</category>
+            <category id="809" parentId="35">Коронки твердосплавные по металу</category>
+            <category id="810" parentId="35">Коронки твердосплавные по бетону</category>
+            <category id="789" parentId="376">Карандаш автоматический</category>
+            <category id="786" parentId="376">Карандаши</category>
+            <category id="787" parentId="376">Маркеры</category>
+            <category id="788" parentId="376">Маркер на основе жидкой краски</category>
+            <category id="790" parentId="376">Мел восковый</category>
+            <category id="792" parentId="376">Стержни запасные</category>
+            <category id="791" parentId="376">Наборы маркеров</category>
+            <category id="525" parentId="391">Комплектующие к инструменту</category>
+            <category id="750" parentId="576">Промо 2025</category>
+            <category id="751" parentId="576">Футболки с обогревом</category>
+            <category id="752" parentId="576">Толстовка/худи с подогревом</category>
+            <category id="753" parentId="576">Куртки с подогревом</category>
+            <category id="754" parentId="576">Жилет с подогревом</category>
+            <category id="770" parentId="11">Сверло по металлу HSS-Co (кобальт)</category>
+            <category id="771" parentId="11">Сверла HSS-G RedHEX (титанированные)</category>
+            <category id="772" parentId="11">Сверло по металлу HSS-G</category>
+            <category id="773" parentId="11">Сверло по металлу HSS-R</category>
+            <category id="774" parentId="148">Сверла спиральные</category>
+            <category id="775" parentId="148">Самоврезающаяся насадки</category>
+            <category id="776" parentId="148">Сверла перьевые</category>
+            <category id="782" parentId="148">Сверло трехточечное</category>
+            <category id="564" parentId="148">Сверла FORSTNER</category>
+            <category id="799" parentId="363">Насадки универсальные</category>
+            <category id="310" parentId="18">Магистральные фильтры</category>
+            <category id="311" parentId="18">Циклонные сепараторы</category>
+            <category id="312" parentId="18">Фильтрующий элемент</category>
+            <category id="332" parentId="22">Блок управления</category>
+            <category id="333" parentId="22">Обратный клапан</category>
+            <category id="529" parentId="177">Комплектующие к инструменту</category>
+        </categories>
+        <offers>
+            <offer available="false" id="18827">
+                <currencyId>UAH</currencyId>
+                <price>11040</price>
+                <categoryId>195</categoryId>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/7/185137.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/2/185132.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/3/185133.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/4/185134.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/5/185135.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/6/185136.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/5/1/3/8/185138.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/9/9/7/7/189977.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/9/9/7/8/189978.jpg</picture>
+                <picture>https://ldinvest.ua/img/p/1/8/9/9/7/9/189979.jpg</picture>
+                <vendor>MILWAUKEE</vendor>
+                <vendorCode>4933464972</vendorCode>
+                <name>Шуруповерт ударный гидравлический аккумуляторный бесщёточный MILWAUKEE (50Нм) M12 FQID-0 (каркас)</name>
+                <description>
+                    Бесщеточный двигатель POWERSTATE; крутящий момент 50 Нм; 4 скорости; патрон HEX 1/4"; картон&lt;br /&gt;
+                    M12 FUEL™ SURGE™ ¼″ Hex гидравлический импульсный винтовёрт - это самый тихий 12 вольтовый импульсный винтовёрт Milwaukee Tool. Он обладает превосходными шумовыми показателями (всего 76 дБ, при креплении в дерево)&lt;br /&gt;
+                    Гидравлическая трансмиссия FLUID-DRIVE™ сокращает контакт между металлическими элементами инструмента, обеспечивая более тихую, гладкую работу и больший срок службы, чем у стандартного ударного винтовёрта&lt;br /&gt;
+                    4-режимный переключатель DRIVE CONTROL позволяет пользователю переключаться между 4-мя режимами скорости и крутящего момента для максимальной многофункциональности&lt;br /&gt;
+                    Бесщёточный двигатель POWERSTATE™ обеспечивает скорость вращения 0-3200 с постоянной мощностью для более быстрого заворачивания винтов&lt;br /&gt;
+                    Интеллектуальная система REDLINK PLUS™ обеспечивает совершенную защиту от перегрузки инструмента и аккумулятора и существенно повышает производительность инструмента под нагрузкой&lt;br /&gt;
+                    Аккумулятор REDLITHIUM™ оснащён высококачественным корпусом и электроникой и обеспечивает бесперебойную производительность, что обуславливает большее время работы и большую выработка за срок службы аккумулятора&lt;br /&gt;
+                    Патрон ¼″ Hex обеспечивает быструю и простую смену бит&lt;br /&gt;
+                    Универсальная аккумуляторная система: работает со всеми аккумуляторами MILWAUKEE® M12™&lt;br /&gt;
+                    &lt;br /&gt;
+                    Аккумулятор 0&lt;br /&gt;
+                    Артикул 4933464972&lt;br /&gt;
+                    Вес [без аккумулятора] [кг] 0.9&lt;br /&gt;
+                    Емкость аккумулятора (Ач) Поставляется без аккумуляторов&lt;br /&gt;
+                    Макс. диаметр болта M14&lt;br /&gt;
+                    Макс. крутящий момент (Нм) 50&lt;br /&gt;
+                    Набор включён −&lt;br /&gt;
+                    Напряжение (В) 12&lt;br /&gt;
+                    Общий вес (кг) -&lt;br /&gt;
+                    Поставляется в Поставляется без кейса или сумки&lt;br /&gt;
+                    Скорость без нагрузки (об/мин) 1100/2200/3200/3200&lt;br /&gt;
+                    Стандартная комплектация -&lt;br /&gt;
+                    Тип аккумулятора Li-ion&lt;br /&gt;
+                    Тип хвостовика ¼″ Hex&lt;br /&gt;
+                    Ударное сверление (м/c²) 12,79&lt;br /&gt;
+                    Уровень шума (Дб Lpa) 84,7&lt;br /&gt;
+                    Уровень шума (Дб Lwa) 95,7&lt;br /&gt;
+                    Частота ударов (уд/мин) 950/2200/3400/3400&lt;br /&gt;
+                    &lt;br /&gt;
+                    &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/xjLy16Zo7cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+                </description>
+                <param name="Артикул">4933464972</param>
+                <param name="Категории товаров 2">Дрели - шуруповерты</param>
+                <param name="Тип хвостовика">1/4" Hex</param>
+                <param name="Виробник">MILWAUKEE</param>
+                <param name="Категории товаров 1">Електроінструмент</param>
+                <param name="Гарантія, міс.">36</param>
+                <param name="Уровень шума, дБ">95.7</param>
+                <param name="Максимальный момент затяжки, Нм">50</param>
+                <param name="Джерело живлення">Акумулятор</param>
+                <param name="Двигатель">Бесщёточный</param>
+                <param name="Тип акумулятора">Li-Ion</param>
+                <param name="Количество режимов работы">4</param>
+                <param name="Напруга акумулятора, В">12</param>
+                <param name="Платформа">M12</param>
+                <param name="Скорость без нагрузки об/мин.">1100/2200/3200/3200</param>
+                <param name="Частота ударов, уд/мин">1800/29000/4000/4000</param>
+                <param name="Технология">M12 FUEL</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

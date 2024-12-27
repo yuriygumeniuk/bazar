@@ -1,315 +1,316 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<shop>
-    <currencies>
-        <currency id="UAH" rate="1" />
-    </currencies>
-    <categories>
-        <category id="10212">Електроінструмент та обладнання</category>
-        <category id="10524" parentId="10212">Аксесуари для електроінструменту та обладнання</category>
-        <category id="10525" parentId="10524">Аксесуари до пилососу</category>
-        <category id="10237" parentId="10212">Вимірювальна техніка</category>
-        <category id="10240" parentId="10237">Аксесуари для лазерної техніки</category>
-        <category id="10239" parentId="10237">Далекоміри лазерні</category>
-        <category id="10238" parentId="10237">Лазерні рівні</category>
-        <category id="10241" parentId="10237">Пошуковик проводки</category>
-        <category id="10213" parentId="10212">Електроінструмент</category>
-        <category id="10216" parentId="10213">Болгарки (КШМ)</category>
-        <category id="10499" parentId="10213">Будівельні пилососи</category>
-        <category id="10225" parentId="10213">Будівельні фени</category>
-        <category id="10232" parentId="10213">Верстати заточувальні</category>
-        <category id="10227" parentId="10213">Відбійні молотки</category>
-        <category id="10223" parentId="10213">Гравери</category>
-        <category id="10217" parentId="10213">Дрилі</category>
-        <category id="10218" parentId="10213">Електролобзики</category>
-        <category id="10219" parentId="10213">Електрорубанки</category>
-        <category id="10487" parentId="10213">Клейовий пістолет</category>
-        <category id="10224" parentId="10213">Міксери будівельні</category>
-        <category id="10233" parentId="10213">Паяльники для труб</category>
-        <category id="10215" parentId="10213">Перфоратори</category>
-        <category id="10231" parentId="10213">Пилки торцювальні</category>
-        <category id="10229" parentId="10213">Пилки циркулярні</category>
-        <category id="10226" parentId="10213">Плиткорізи</category>
-        <category id="10222" parentId="10213">Полірувальні машини</category>
-        <category id="10228" parentId="10213">Фарбопульти електричні</category>
-        <category id="10220" parentId="10213">Фрезери</category>
-        <category id="10230" parentId="10213">Шабельні пили</category>
-        <category id="10221" parentId="10213">Шліфувальний інструмент</category>
-        <category id="10214" parentId="10213">Шуруповерти</category>
-        <category id="10242" parentId="10212">Зварювальне обладнання</category>
-        <category id="10246" parentId="10242">Електроди</category>
-        <category id="10243" parentId="10242">Зварювальні апарати</category>
-        <category id="10245" parentId="10242">Магніти для зварювання</category>
-        <category id="10244" parentId="10242">Маски зварювальника</category>
-        <category id="10234" parentId="10212">Інструмент на єдиному акумуляторі</category>
-        <category id="10236" parentId="10234">Акумуляторна лінійка i12</category>
-        <category id="10235" parentId="10234">Акумуляторна лінійка i20</category>
-        <category id="10522" parentId="10234">Акумуляторні батареї</category>
-        <category id="10247" parentId="10212">Силове обладнання</category>
-        <category id="10248" parentId="10247">Генератори бензинові</category>
-        <category id="10521" parentId="10247">Електрогенераторні установки</category>
-        <category id="10520" parentId="10247">Електростанції</category>
-        <category id="10249">Сад та Дача</category>
-        <category id="10274" parentId="10249">Витратні матеріали до тримерів та ланцюгових пил</category>
-        <category id="10275" parentId="10274">Диски для садових тримерів</category>
-        <category id="10497" parentId="10274">Ланцюги для пил</category>
-        <category id="10276" parentId="10274">Ліски для садових тримерів</category>
-        <category id="10277" parentId="10274">Шпулі для тримерів</category>
-        <category id="10528" parentId="10249">Мотопомпи та насоси</category>
-        <category id="10529" parentId="10528">Мотопомпи</category>
-        <category id="10530" parentId="10528">Насоси</category>
-        <category id="10495" parentId="10249">Олива для садово-паркової техніки</category>
-        <category id="10496" parentId="10495">Олива</category>
-        <category id="10258" parentId="10249">Садовий ручний інструмент</category>
-        <category id="10526" parentId="10258">Поливальні шланги</category>
-        <category id="10259" parentId="10258">Гілкорізи</category>
-        <category id="10272" parentId="10258">Секатори та ножиці</category>
-        <category id="10269" parentId="10258">Пили садові</category>
-        <category id="10273" parentId="10258">Сокири та колуни</category>
-        <category id="10264" parentId="10258">Догляд за рослинами</category>
-        <category id="10265" parentId="10258">Лопатки</category>
-        <category id="10270" parentId="10258">Плодознімачі</category>
-        <category id="10266" parentId="10258">Набори для поливу</category>
-        <category id="10260" parentId="10258">Дощувальні пристрої</category>
-        <category id="10263" parentId="10258">Катушки</category>
-        <category id="10262" parentId="10258">З’єднувачі для шлангів</category>
-        <category id="10271" parentId="10258">Розпилювачі ручні</category>
-        <category id="10261" parentId="10258">Душ садовий</category>
-        <category id="10250" parentId="10249">Садово-паркова техніка</category>
-        <category id="10252" parentId="10250">Мотокоси</category>
-        <category id="10251" parentId="10250">Бензопили</category>
-        <category id="10488" parentId="10250">Електропили</category>
-        <category id="10253" parentId="10250">Мийки високого тиску</category>
-        <category id="10255" parentId="10250">Газонокосарки</category>
-        <category id="10257" parentId="10250">Обприскувачі</category>
-        <category id="10256" parentId="10250">Повітродувки</category>
-        <category id="10533" parentId="10250">Гілкоподрібнювачі</category>
-        <category id="10489" parentId="10250">Електричні тримери</category>
-        <category id="10278">Ручний інструмент</category>
-        <category id="10348" parentId="10278">Вимірювальний інструмент</category>
-        <category id="10354" parentId="10348">Кутники</category>
-        <category id="10350" parentId="10348">Лекало</category>
-        <category id="10351" parentId="10348">Лінійки</category>
-        <category id="10352" parentId="10348">Мікрометри</category>
-        <category id="10355" parentId="10348">Рівні</category>
-        <category id="10353" parentId="10348">Рулетки</category>
-        <category id="10356" parentId="10348">Штангенциркулі</category>
-        <category id="10357" parentId="10348">Щупи</category>
-        <category id="10296" parentId="10278">Інструмент автомеханіка</category>
-        <category id="10297" parentId="10296">Воротки</category>
-        <category id="10298" parentId="10296">Головки торцеві</category>
-        <category id="10299" parentId="10296">Кардани</category>
-        <category id="10493" parentId="10296">Комбіновані ключі</category>
-        <category id="10301" parentId="10296">Маслянки</category>
-        <category id="10302" parentId="10296">Набір головок</category>
-        <category id="10303" parentId="10296">Нагнітач мастила</category>
-        <category id="10494" parentId="10296">Накидні ключі</category>
-        <category id="10305" parentId="10296">Подовжувачі</category>
-        <category id="10492" parentId="10296">Ріжкові ключі</category>
-        <category id="10304" parentId="10296">Рукоятки</category>
-        <category id="10300" parentId="10296">Торцеві ключі</category>
-        <category id="10358" parentId="10278">Інструмент для електрика</category>
-        <category id="10359" parentId="10358">Бокорізи</category>
-        <category id="10365" parentId="10358">Діелектричні викрутки</category>
-        <category id="10360" parentId="10358">Довгогубці</category>
-        <category id="10369" parentId="10358">Затискачі</category>
-        <category id="10367" parentId="10358">Знімачі ізоляції</category>
-        <category id="10370" parentId="10358">Ізоляційні стрічки</category>
-        <category id="10371" parentId="10358">Кабелерізи</category>
-        <category id="10361" parentId="10358">Ключ ріжковий</category>
-        <category id="10362" parentId="10358">Круглогубці</category>
-        <category id="10368" parentId="10358">Набір інструментів</category>
-        <category id="10363" parentId="10358">Ножі</category>
-        <category id="10372" parentId="10358">Паяльники</category>
-        <category id="10366" parentId="10358">Плоскогубці, пасатіжі</category>
-        <category id="10374" parentId="10358">Тестери</category>
-        <category id="10306" parentId="10278">Інструмент для монтажу/демонтажу</category>
-        <category id="10307" parentId="10306">Біти</category>
-        <category id="10314" parentId="10306">Викрутки</category>
-        <category id="10308" parentId="10306">Головкі магнітні</category>
-        <category id="10483" parentId="10306">Заклепки</category>
-        <category id="10310" parentId="10306">Заклепник</category>
-        <category id="10323" parentId="10306">Зубила</category>
-        <category id="10316" parentId="10306">Киянки</category>
-        <category id="10317" parentId="10306">Кувалди</category>
-        <category id="10318" parentId="10306">Молотки</category>
-        <category id="10311" parentId="10306">Набір адаптерів для торцевих головок</category>
-        <category id="10312" parentId="10306">Набір біт</category>
-        <category id="10313" parentId="10306">Набір ключів</category>
-        <category id="10319" parentId="10306">Набір пробійників</category>
-        <category id="10320" parentId="10306">Сокири</category>
-        <category id="10321" parentId="10306">Стамески</category>
-        <category id="10315" parentId="10306">Степлери будівельні</category>
-        <category id="10309" parentId="10306">Тримачі біт</category>
-        <category id="10322" parentId="10306">Фомки</category>
-        <category id="10324" parentId="10306">Штампи</category>
-        <category id="10393" parentId="10278">Інше</category>
-        <category id="10402" parentId="10393">Візки</category>
-        <category id="10399" parentId="10393">Драбини</category>
-        <category id="10401" parentId="10393">Знімачі</category>
-        <category id="10536" parentId="10393">Крейда</category>
-        <category id="10398" parentId="10393">Лебідки</category>
-        <category id="10403" parentId="10393">Ліхтарі</category>
-        <category id="10394" parentId="10393">Насос</category>
-        <category id="10395" parentId="10393">Пістолети для стрічки</category>
-        <category id="10396" parentId="10393">Присоски для скла</category>
-        <category id="10397" parentId="10393">Пружинні очищувачі</category>
-        <category id="10400" parentId="10393">Стільці</category>
-        <category id="10486" parentId="10393">Тази</category>
-        <category id="10404" parentId="10393">Шприци для змащення</category>
-        <category id="10279" parentId="10278">Механічний інструмент</category>
-        <category id="10280" parentId="10279">Бокорізи</category>
-        <category id="10281" parentId="10279">Болторізи</category>
-        <category id="10282" parentId="10279">Довгогубці</category>
-        <category id="10294" parentId="10279">Знімачі стопорних кілець</category>
-        <category id="10284" parentId="10279">Інструмент міні</category>
-        <category id="10285" parentId="10279">Кліщі</category>
-        <category id="10288" parentId="10279">Кусачки</category>
-        <category id="10289" parentId="10279">Лещата</category>
-        <category id="10290" parentId="10279">Набір знімачів</category>
-        <category id="10291" parentId="10279">Набір інструментів</category>
-        <category id="10292" parentId="10279">Плоскогубці, пасатижі</category>
-        <category id="10293" parentId="10279">Пробійники для шкіри</category>
-        <category id="10283" parentId="10279">Пружинні струбцини</category>
-        <category id="10286" parentId="10279">Розвідні ключі</category>
-        <category id="10295" parentId="10279">Струбцина</category>
-        <category id="10523" parentId="10279">Тріскачка</category>
-        <category id="10334" parentId="10278">Обробний інструмент</category>
-        <category id="10335" parentId="10334">Бруски</category>
-        <category id="10336" parentId="10334">Набір надфилів</category>
-        <category id="10337" parentId="10334">Набір напилок</category>
-        <category id="10338" parentId="10334">Напилки</category>
-        <category id="10339" parentId="10334">Рубанки</category>
-        <category id="10341" parentId="10334">Ручні щітки</category>
-        <category id="10340" parentId="10334">Сітки абразивны</category>
-        <category id="10375" parentId="10278">Оздоблювальний інструмент</category>
-        <category id="10475" parentId="10375">Валики</category>
-        <category id="10376" parentId="10375">Затирки</category>
-        <category id="10378" parentId="10375">Кельми</category>
-        <category id="10379" parentId="10375">Маркери</category>
-        <category id="10377" parentId="10375">Олівці</category>
-        <category id="10476" parentId="10375">Пензлі</category>
-        <category id="10382" parentId="10375">Пістолети для герметика</category>
-        <category id="10383" parentId="10375">Пістолети для піни</category>
-        <category id="10384" parentId="10375">Плиткорізи</category>
-        <category id="10385" parentId="10375">Склорізи</category>
-        <category id="10389" parentId="10375">Стрічки, плівки та скотч</category>
-        <category id="10386" parentId="10375">Шпателі</category>
-        <category id="10387" parentId="10375">Шприці</category>
-        <category id="10388" parentId="10375">Штанги</category>
-        <category id="10325" parentId="10278">Ріжучий інструмент</category>
-        <category id="10326" parentId="10325">Леза</category>
-        <category id="10327" parentId="10325">Мультитули</category>
-        <category id="10329" parentId="10325">Ножиці господарчі</category>
-        <category id="10491" parentId="10325">Ножиці для різання ПВХ труб</category>
-        <category id="10490" parentId="10325">Ножиці по металу</category>
-        <category id="10328" parentId="10325">Ножі сегментні</category>
-        <category id="10331" parentId="10325">Ножівки по дереву</category>
-        <category id="10330" parentId="10325">Ножівки по металу</category>
-        <category id="10332" parentId="10325">Полотна по металу/деревині</category>
-        <category id="10333" parentId="10325">Скребки</category>
-        <category id="10342" parentId="10278">Слюсарний інструмент</category>
-        <category id="10343" parentId="10342">Набір для нарізування труби</category>
-        <category id="10344" parentId="10342">Набір екстракторів</category>
-        <category id="10346" parentId="10342">Труборізи</category>
-        <category id="10347" parentId="10342">ФУМ</category>
-        <category id="10390" parentId="10278">Сумки для інструментів</category>
-        <category id="10391" parentId="10390">Сумки для інструментів</category>
-        <category id="10392" parentId="10390">Ящики для інструментів</category>
-        <category id="10405">Витратні матеріали</category>
-        <category id="10406" parentId="10405">Витратні матеріали до електроінструменту</category>
-        <category id="10411" parentId="10406">Алмазні диски</category>
-        <category id="10410" parentId="10406">Бури для перфораторів і дрилів</category>
-        <category id="10481" parentId="10406">Диски по металу</category>
-        <category id="10412" parentId="10406">Зубила</category>
-        <category id="10413" parentId="10406">Ключі для патрона</category>
-        <category id="10414" parentId="10406">Коронки і адаптери для коронок</category>
-        <category id="10416" parentId="10406">Набори</category>
-        <category id="10417" parentId="10406">Насадки для міксера будівельного</category>
-        <category id="10498" parentId="10406">Ножі для рубанка</category>
-        <category id="10484" parentId="10406">Папір абразивний</category>
-        <category id="10482" parentId="10406">Пильні диски</category>
-        <category id="10418" parentId="10406">Свердла</category>
-        <category id="10419" parentId="10406">Чашки шліфувальні</category>
-        <category id="10415" parentId="10406">Шліфувальні матеріали</category>
-        <category id="10420" parentId="10406">Щітки</category>
-        <category id="10421">Засоби захисту</category>
-        <category id="10425" parentId="10421">Захист голови</category>
-        <category id="10426" parentId="10425">Будівельні каски</category>
-        <category id="10427" parentId="10421">Захист ніг</category>
-        <category id="10428" parentId="10427">Черевики</category>
-        <category id="10429" parentId="10427">Чоботи</category>
-        <category id="10422" parentId="10421">Захист очей</category>
-        <category id="10424" parentId="10422">Захисні окуляри</category>
-        <category id="10430" parentId="10421">Захист рук</category>
-        <category id="10431" parentId="10430">Рукавиці</category>
-        <category id="10432" parentId="10421">Захист слуху</category>
-        <category id="10433" parentId="10432">Навушники</category>
-        <category id="10434" parentId="10421">Захист тіла</category>
-        <category id="10435" parentId="10434">Дощовик</category>
-        <category id="10507" parentId="10434">Комбінезони</category>
-        <category id="10535" parentId="10434">Куртки</category>
-        <category id="10534" parentId="10434">Штани</category>
-        <category id="10500">Будівельне обладнання</category>
-        <category id="10501" parentId="10500">Будівельна техніка</category>
-        <category id="10502" parentId="10501">Віброплити</category>
-        <category id="10503" parentId="10501">Віброрейки</category>
-        <category id="10504" parentId="10501">Вібротрамбовки</category>
-        <category id="10505" parentId="10501">Затирочні машини</category>
-        <category id="10518" parentId="10501">Обігрівачі</category>
-        <category id="10517" parentId="10501">Тепловентилятори</category>
-        <category id="10506" parentId="10501">Швонарізувачі</category>
-        <category id="10436">Верстати</category>
-        <category id="10437" parentId="10436">Деревообробні верстати</category>
-        <category id="10443" parentId="10437">Багатофункціональні верстати</category>
-        <category id="10440" parentId="10437">Кромкооблицювальні верстати</category>
-        <category id="10441" parentId="10437">Круглопильні верстати</category>
-        <category id="10445" parentId="10437">Пилозбирачі</category>
-        <category id="10446" parentId="10437">Рейсмусові верстати</category>
-        <category id="10442" parentId="10437">Стрічкові пили</category>
-        <category id="10447" parentId="10437">Токарні верстати</category>
-        <category id="10448" parentId="10437">Форматно-розкроювальні верстати</category>
-        <category id="10449" parentId="10437">Фрезерні верстати</category>
-        <category id="10450" parentId="10437">Фугувально-рейсмусові верстати</category>
-        <category id="10451" parentId="10437">Шліфувальні верстати</category>
-        <category id="10452" parentId="10436">Металообробні верстати</category>
-        <category id="10460" parentId="10452">Важільні ножиці</category>
-        <category id="10459" parentId="10452">Відрізні монтажні пили</category>
-        <category id="10455" parentId="10452">Заточувальні верстати</category>
-        <category id="10453" parentId="10452">Листозгинальні верстати</category>
-        <category id="10461" parentId="10452">Преси</category>
-        <category id="10458" parentId="10452">Профілезгинальні верстати</category>
-        <category id="10464" parentId="10452">Свердлильні верстати по металу</category>
-        <category id="10457" parentId="10452">Стрічкові пили по металу</category>
-        <category id="10466" parentId="10452">Токарні верстати по металу</category>
-        <category id="10467" parentId="10452">Фрезерні верстати по металу</category>
-        <category id="10468" parentId="10452">Шліфувальні верстати по металу</category>
-        <category id="10531">Комплекти</category>
-        <category id="10532" parentId="10531">Комплекти</category>
-        <category id="10470">Навантажувальна техніка</category>
-        <category id="10471" parentId="10470">Складська техніка</category>
-        <category id="10473" parentId="10471">Ручні візки</category>
-        <category id="10474" parentId="10471">Ручні штабелери</category>
-        <category id="10472" parentId="10471">Столи гідравлічні</category>
-    </categories>
-    <offers>
-        <offer id="38063">
-            <brand>Tolsen Tools</brand>
-            <categoryId>10372</categoryId>
-            <name>Паяльник 60 Вт Профі Tolsen</name>
-            <price>375</price>
-            <picture>https://place-b2b.com.ua/media/product/700-a/00/03/3443/38063.jpg</picture>
-            <description>
-                <![CDATA[<p>Паяльник 60 Вт Профі Tolsen &ndash; це надійний інструмент, призначений для виконання різноманітних пайок в електроніці, радіотехніці та побутових умовах. Завдяки потужності в 60 Вт, паяльник швидко нагрівається і забезпечує стабільну температуру для якісної роботи з різними металами та припоями. Ергономічна ручка з термостійкого матеріалу забезпечує комфорт та&nbsp;безпеку&nbsp;під&nbsp;час&nbsp;використання.<br />
+<yml_catalog date="2024-11-06 12:54">
+    <shop>
+        <currencies>
+            <currency id="UAH" rate="1" />
+        </currencies>
+        <categories>
+            <category id="10212">Електроінструмент та обладнання</category>
+            <category id="10524" parentId="10212">Аксесуари для електроінструменту та обладнання</category>
+            <category id="10525" parentId="10524">Аксесуари до пилососу</category>
+            <category id="10237" parentId="10212">Вимірювальна техніка</category>
+            <category id="10240" parentId="10237">Аксесуари для лазерної техніки</category>
+            <category id="10239" parentId="10237">Далекоміри лазерні</category>
+            <category id="10238" parentId="10237">Лазерні рівні</category>
+            <category id="10241" parentId="10237">Пошуковик проводки</category>
+            <category id="10213" parentId="10212">Електроінструмент</category>
+            <category id="10216" parentId="10213">Болгарки (КШМ)</category>
+            <category id="10499" parentId="10213">Будівельні пилососи</category>
+            <category id="10225" parentId="10213">Будівельні фени</category>
+            <category id="10232" parentId="10213">Верстати заточувальні</category>
+            <category id="10227" parentId="10213">Відбійні молотки</category>
+            <category id="10223" parentId="10213">Гравери</category>
+            <category id="10217" parentId="10213">Дрилі</category>
+            <category id="10218" parentId="10213">Електролобзики</category>
+            <category id="10219" parentId="10213">Електрорубанки</category>
+            <category id="10487" parentId="10213">Клейовий пістолет</category>
+            <category id="10224" parentId="10213">Міксери будівельні</category>
+            <category id="10233" parentId="10213">Паяльники для труб</category>
+            <category id="10215" parentId="10213">Перфоратори</category>
+            <category id="10231" parentId="10213">Пилки торцювальні</category>
+            <category id="10229" parentId="10213">Пилки циркулярні</category>
+            <category id="10226" parentId="10213">Плиткорізи</category>
+            <category id="10222" parentId="10213">Полірувальні машини</category>
+            <category id="10228" parentId="10213">Фарбопульти електричні</category>
+            <category id="10220" parentId="10213">Фрезери</category>
+            <category id="10230" parentId="10213">Шабельні пили</category>
+            <category id="10221" parentId="10213">Шліфувальний інструмент</category>
+            <category id="10214" parentId="10213">Шуруповерти</category>
+            <category id="10242" parentId="10212">Зварювальне обладнання</category>
+            <category id="10246" parentId="10242">Електроди</category>
+            <category id="10243" parentId="10242">Зварювальні апарати</category>
+            <category id="10245" parentId="10242">Магніти для зварювання</category>
+            <category id="10244" parentId="10242">Маски зварювальника</category>
+            <category id="10234" parentId="10212">Інструмент на єдиному акумуляторі</category>
+            <category id="10236" parentId="10234">Акумуляторна лінійка i12</category>
+            <category id="10235" parentId="10234">Акумуляторна лінійка i20</category>
+            <category id="10522" parentId="10234">Акумуляторні батареї</category>
+            <category id="10247" parentId="10212">Силове обладнання</category>
+            <category id="10248" parentId="10247">Генератори бензинові</category>
+            <category id="10521" parentId="10247">Електрогенераторні установки</category>
+            <category id="10520" parentId="10247">Електростанції</category>
+            <category id="10249">Сад та Дача</category>
+            <category id="10274" parentId="10249">Витратні матеріали до тримерів та ланцюгових пил</category>
+            <category id="10275" parentId="10274">Диски для садових тримерів</category>
+            <category id="10497" parentId="10274">Ланцюги для пил</category>
+            <category id="10276" parentId="10274">Ліски для садових тримерів</category>
+            <category id="10277" parentId="10274">Шпулі для тримерів</category>
+            <category id="10528" parentId="10249">Мотопомпи та насоси</category>
+            <category id="10529" parentId="10528">Мотопомпи</category>
+            <category id="10530" parentId="10528">Насоси</category>
+            <category id="10495" parentId="10249">Олива для садово-паркової техніки</category>
+            <category id="10496" parentId="10495">Олива</category>
+            <category id="10258" parentId="10249">Садовий ручний інструмент</category>
+            <category id="10526" parentId="10258">Поливальні шланги</category>
+            <category id="10259" parentId="10258">Гілкорізи</category>
+            <category id="10272" parentId="10258">Секатори та ножиці</category>
+            <category id="10269" parentId="10258">Пили садові</category>
+            <category id="10273" parentId="10258">Сокири та колуни</category>
+            <category id="10264" parentId="10258">Догляд за рослинами</category>
+            <category id="10265" parentId="10258">Лопатки</category>
+            <category id="10270" parentId="10258">Плодознімачі</category>
+            <category id="10266" parentId="10258">Набори для поливу</category>
+            <category id="10260" parentId="10258">Дощувальні пристрої</category>
+            <category id="10263" parentId="10258">Катушки</category>
+            <category id="10262" parentId="10258">З’єднувачі для шлангів</category>
+            <category id="10271" parentId="10258">Розпилювачі ручні</category>
+            <category id="10261" parentId="10258">Душ садовий</category>
+            <category id="10250" parentId="10249">Садово-паркова техніка</category>
+            <category id="10252" parentId="10250">Мотокоси</category>
+            <category id="10251" parentId="10250">Бензопили</category>
+            <category id="10488" parentId="10250">Електропили</category>
+            <category id="10253" parentId="10250">Мийки високого тиску</category>
+            <category id="10255" parentId="10250">Газонокосарки</category>
+            <category id="10257" parentId="10250">Обприскувачі</category>
+            <category id="10256" parentId="10250">Повітродувки</category>
+            <category id="10533" parentId="10250">Гілкоподрібнювачі</category>
+            <category id="10489" parentId="10250">Електричні тримери</category>
+            <category id="10278">Ручний інструмент</category>
+            <category id="10348" parentId="10278">Вимірювальний інструмент</category>
+            <category id="10354" parentId="10348">Кутники</category>
+            <category id="10350" parentId="10348">Лекало</category>
+            <category id="10351" parentId="10348">Лінійки</category>
+            <category id="10352" parentId="10348">Мікрометри</category>
+            <category id="10355" parentId="10348">Рівні</category>
+            <category id="10353" parentId="10348">Рулетки</category>
+            <category id="10356" parentId="10348">Штангенциркулі</category>
+            <category id="10357" parentId="10348">Щупи</category>
+            <category id="10296" parentId="10278">Інструмент автомеханіка</category>
+            <category id="10297" parentId="10296">Воротки</category>
+            <category id="10298" parentId="10296">Головки торцеві</category>
+            <category id="10299" parentId="10296">Кардани</category>
+            <category id="10493" parentId="10296">Комбіновані ключі</category>
+            <category id="10301" parentId="10296">Маслянки</category>
+            <category id="10302" parentId="10296">Набір головок</category>
+            <category id="10303" parentId="10296">Нагнітач мастила</category>
+            <category id="10494" parentId="10296">Накидні ключі</category>
+            <category id="10305" parentId="10296">Подовжувачі</category>
+            <category id="10492" parentId="10296">Ріжкові ключі</category>
+            <category id="10304" parentId="10296">Рукоятки</category>
+            <category id="10300" parentId="10296">Торцеві ключі</category>
+            <category id="10358" parentId="10278">Інструмент для електрика</category>
+            <category id="10359" parentId="10358">Бокорізи</category>
+            <category id="10365" parentId="10358">Діелектричні викрутки</category>
+            <category id="10360" parentId="10358">Довгогубці</category>
+            <category id="10369" parentId="10358">Затискачі</category>
+            <category id="10367" parentId="10358">Знімачі ізоляції</category>
+            <category id="10370" parentId="10358">Ізоляційні стрічки</category>
+            <category id="10371" parentId="10358">Кабелерізи</category>
+            <category id="10361" parentId="10358">Ключ ріжковий</category>
+            <category id="10362" parentId="10358">Круглогубці</category>
+            <category id="10368" parentId="10358">Набір інструментів</category>
+            <category id="10363" parentId="10358">Ножі</category>
+            <category id="10372" parentId="10358">Паяльники</category>
+            <category id="10366" parentId="10358">Плоскогубці, пасатіжі</category>
+            <category id="10374" parentId="10358">Тестери</category>
+            <category id="10306" parentId="10278">Інструмент для монтажу/демонтажу</category>
+            <category id="10307" parentId="10306">Біти</category>
+            <category id="10314" parentId="10306">Викрутки</category>
+            <category id="10308" parentId="10306">Головкі магнітні</category>
+            <category id="10483" parentId="10306">Заклепки</category>
+            <category id="10310" parentId="10306">Заклепник</category>
+            <category id="10323" parentId="10306">Зубила</category>
+            <category id="10316" parentId="10306">Киянки</category>
+            <category id="10317" parentId="10306">Кувалди</category>
+            <category id="10318" parentId="10306">Молотки</category>
+            <category id="10311" parentId="10306">Набір адаптерів для торцевих головок</category>
+            <category id="10312" parentId="10306">Набір біт</category>
+            <category id="10313" parentId="10306">Набір ключів</category>
+            <category id="10319" parentId="10306">Набір пробійників</category>
+            <category id="10320" parentId="10306">Сокири</category>
+            <category id="10321" parentId="10306">Стамески</category>
+            <category id="10315" parentId="10306">Степлери будівельні</category>
+            <category id="10309" parentId="10306">Тримачі біт</category>
+            <category id="10322" parentId="10306">Фомки</category>
+            <category id="10324" parentId="10306">Штампи</category>
+            <category id="10393" parentId="10278">Інше</category>
+            <category id="10402" parentId="10393">Візки</category>
+            <category id="10399" parentId="10393">Драбини</category>
+            <category id="10401" parentId="10393">Знімачі</category>
+            <category id="10536" parentId="10393">Крейда</category>
+            <category id="10398" parentId="10393">Лебідки</category>
+            <category id="10403" parentId="10393">Ліхтарі</category>
+            <category id="10394" parentId="10393">Насос</category>
+            <category id="10395" parentId="10393">Пістолети для стрічки</category>
+            <category id="10396" parentId="10393">Присоски для скла</category>
+            <category id="10397" parentId="10393">Пружинні очищувачі</category>
+            <category id="10400" parentId="10393">Стільці</category>
+            <category id="10486" parentId="10393">Тази</category>
+            <category id="10404" parentId="10393">Шприци для змащення</category>
+            <category id="10279" parentId="10278">Механічний інструмент</category>
+            <category id="10280" parentId="10279">Бокорізи</category>
+            <category id="10281" parentId="10279">Болторізи</category>
+            <category id="10282" parentId="10279">Довгогубці</category>
+            <category id="10294" parentId="10279">Знімачі стопорних кілець</category>
+            <category id="10284" parentId="10279">Інструмент міні</category>
+            <category id="10285" parentId="10279">Кліщі</category>
+            <category id="10288" parentId="10279">Кусачки</category>
+            <category id="10289" parentId="10279">Лещата</category>
+            <category id="10290" parentId="10279">Набір знімачів</category>
+            <category id="10291" parentId="10279">Набір інструментів</category>
+            <category id="10292" parentId="10279">Плоскогубці, пасатижі</category>
+            <category id="10293" parentId="10279">Пробійники для шкіри</category>
+            <category id="10283" parentId="10279">Пружинні струбцини</category>
+            <category id="10286" parentId="10279">Розвідні ключі</category>
+            <category id="10295" parentId="10279">Струбцина</category>
+            <category id="10523" parentId="10279">Тріскачка</category>
+            <category id="10334" parentId="10278">Обробний інструмент</category>
+            <category id="10335" parentId="10334">Бруски</category>
+            <category id="10336" parentId="10334">Набір надфилів</category>
+            <category id="10337" parentId="10334">Набір напилок</category>
+            <category id="10338" parentId="10334">Напилки</category>
+            <category id="10339" parentId="10334">Рубанки</category>
+            <category id="10341" parentId="10334">Ручні щітки</category>
+            <category id="10340" parentId="10334">Сітки абразивны</category>
+            <category id="10375" parentId="10278">Оздоблювальний інструмент</category>
+            <category id="10475" parentId="10375">Валики</category>
+            <category id="10376" parentId="10375">Затирки</category>
+            <category id="10378" parentId="10375">Кельми</category>
+            <category id="10379" parentId="10375">Маркери</category>
+            <category id="10377" parentId="10375">Олівці</category>
+            <category id="10476" parentId="10375">Пензлі</category>
+            <category id="10382" parentId="10375">Пістолети для герметика</category>
+            <category id="10383" parentId="10375">Пістолети для піни</category>
+            <category id="10384" parentId="10375">Плиткорізи</category>
+            <category id="10385" parentId="10375">Склорізи</category>
+            <category id="10389" parentId="10375">Стрічки, плівки та скотч</category>
+            <category id="10386" parentId="10375">Шпателі</category>
+            <category id="10387" parentId="10375">Шприці</category>
+            <category id="10388" parentId="10375">Штанги</category>
+            <category id="10325" parentId="10278">Ріжучий інструмент</category>
+            <category id="10326" parentId="10325">Леза</category>
+            <category id="10327" parentId="10325">Мультитули</category>
+            <category id="10329" parentId="10325">Ножиці господарчі</category>
+            <category id="10491" parentId="10325">Ножиці для різання ПВХ труб</category>
+            <category id="10490" parentId="10325">Ножиці по металу</category>
+            <category id="10328" parentId="10325">Ножі сегментні</category>
+            <category id="10331" parentId="10325">Ножівки по дереву</category>
+            <category id="10330" parentId="10325">Ножівки по металу</category>
+            <category id="10332" parentId="10325">Полотна по металу/деревині</category>
+            <category id="10333" parentId="10325">Скребки</category>
+            <category id="10342" parentId="10278">Слюсарний інструмент</category>
+            <category id="10343" parentId="10342">Набір для нарізування труби</category>
+            <category id="10344" parentId="10342">Набір екстракторів</category>
+            <category id="10346" parentId="10342">Труборізи</category>
+            <category id="10347" parentId="10342">ФУМ</category>
+            <category id="10390" parentId="10278">Сумки для інструментів</category>
+            <category id="10391" parentId="10390">Сумки для інструментів</category>
+            <category id="10392" parentId="10390">Ящики для інструментів</category>
+            <category id="10405">Витратні матеріали</category>
+            <category id="10406" parentId="10405">Витратні матеріали до електроінструменту</category>
+            <category id="10411" parentId="10406">Алмазні диски</category>
+            <category id="10410" parentId="10406">Бури для перфораторів і дрилів</category>
+            <category id="10481" parentId="10406">Диски по металу</category>
+            <category id="10412" parentId="10406">Зубила</category>
+            <category id="10413" parentId="10406">Ключі для патрона</category>
+            <category id="10414" parentId="10406">Коронки і адаптери для коронок</category>
+            <category id="10416" parentId="10406">Набори</category>
+            <category id="10417" parentId="10406">Насадки для міксера будівельного</category>
+            <category id="10498" parentId="10406">Ножі для рубанка</category>
+            <category id="10484" parentId="10406">Папір абразивний</category>
+            <category id="10482" parentId="10406">Пильні диски</category>
+            <category id="10418" parentId="10406">Свердла</category>
+            <category id="10419" parentId="10406">Чашки шліфувальні</category>
+            <category id="10415" parentId="10406">Шліфувальні матеріали</category>
+            <category id="10420" parentId="10406">Щітки</category>
+            <category id="10421">Засоби захисту</category>
+            <category id="10425" parentId="10421">Захист голови</category>
+            <category id="10426" parentId="10425">Будівельні каски</category>
+            <category id="10427" parentId="10421">Захист ніг</category>
+            <category id="10428" parentId="10427">Черевики</category>
+            <category id="10429" parentId="10427">Чоботи</category>
+            <category id="10422" parentId="10421">Захист очей</category>
+            <category id="10424" parentId="10422">Захисні окуляри</category>
+            <category id="10430" parentId="10421">Захист рук</category>
+            <category id="10431" parentId="10430">Рукавиці</category>
+            <category id="10432" parentId="10421">Захист слуху</category>
+            <category id="10433" parentId="10432">Навушники</category>
+            <category id="10434" parentId="10421">Захист тіла</category>
+            <category id="10435" parentId="10434">Дощовик</category>
+            <category id="10507" parentId="10434">Комбінезони</category>
+            <category id="10535" parentId="10434">Куртки</category>
+            <category id="10534" parentId="10434">Штани</category>
+            <category id="10500">Будівельне обладнання</category>
+            <category id="10501" parentId="10500">Будівельна техніка</category>
+            <category id="10502" parentId="10501">Віброплити</category>
+            <category id="10503" parentId="10501">Віброрейки</category>
+            <category id="10504" parentId="10501">Вібротрамбовки</category>
+            <category id="10505" parentId="10501">Затирочні машини</category>
+            <category id="10518" parentId="10501">Обігрівачі</category>
+            <category id="10517" parentId="10501">Тепловентилятори</category>
+            <category id="10506" parentId="10501">Швонарізувачі</category>
+            <category id="10436">Верстати</category>
+            <category id="10437" parentId="10436">Деревообробні верстати</category>
+            <category id="10443" parentId="10437">Багатофункціональні верстати</category>
+            <category id="10440" parentId="10437">Кромкооблицювальні верстати</category>
+            <category id="10441" parentId="10437">Круглопильні верстати</category>
+            <category id="10445" parentId="10437">Пилозбирачі</category>
+            <category id="10446" parentId="10437">Рейсмусові верстати</category>
+            <category id="10442" parentId="10437">Стрічкові пили</category>
+            <category id="10447" parentId="10437">Токарні верстати</category>
+            <category id="10448" parentId="10437">Форматно-розкроювальні верстати</category>
+            <category id="10449" parentId="10437">Фрезерні верстати</category>
+            <category id="10450" parentId="10437">Фугувально-рейсмусові верстати</category>
+            <category id="10451" parentId="10437">Шліфувальні верстати</category>
+            <category id="10452" parentId="10436">Металообробні верстати</category>
+            <category id="10460" parentId="10452">Важільні ножиці</category>
+            <category id="10459" parentId="10452">Відрізні монтажні пили</category>
+            <category id="10455" parentId="10452">Заточувальні верстати</category>
+            <category id="10453" parentId="10452">Листозгинальні верстати</category>
+            <category id="10461" parentId="10452">Преси</category>
+            <category id="10458" parentId="10452">Профілезгинальні верстати</category>
+            <category id="10464" parentId="10452">Свердлильні верстати по металу</category>
+            <category id="10457" parentId="10452">Стрічкові пили по металу</category>
+            <category id="10466" parentId="10452">Токарні верстати по металу</category>
+            <category id="10467" parentId="10452">Фрезерні верстати по металу</category>
+            <category id="10468" parentId="10452">Шліфувальні верстати по металу</category>
+            <category id="10531">Комплекти</category>
+            <category id="10532" parentId="10531">Комплекти</category>
+            <category id="10470">Навантажувальна техніка</category>
+            <category id="10471" parentId="10470">Складська техніка</category>
+            <category id="10473" parentId="10471">Ручні візки</category>
+            <category id="10474" parentId="10471">Ручні штабелери</category>
+            <category id="10472" parentId="10471">Столи гідравлічні</category>
+        </categories>
+        <offers>
+            <offer id="38063" available="true">
+                <vendor>Tolsen Tools</vendor>
+                <categoryId>10372</categoryId>
+                <name>Паяльник 60 Вт Профі Tolsen</name>
+                <price>375</price>
+                <picture>https://place-b2b.com.ua/media/product/700-a/00/03/3443/38063.jpg</picture>
+                <description>
+                    <![CDATA[<p>Паяльник 60 Вт Профі Tolsen &ndash; це надійний інструмент, призначений для виконання різноманітних пайок в електроніці, радіотехніці та побутових умовах. Завдяки потужності в 60 Вт, паяльник швидко нагрівається і забезпечує стабільну температуру для якісної роботи з різними металами та припоями. Ергономічна ручка з термостійкого матеріалу забезпечує комфорт та&nbsp;безпеку&nbsp;під&nbsp;час&nbsp;використання.<br />
 <strong>Характеристики:</strong></p>
 
 <ul>
-	<li>Напруга: 220-240 В</li>
-	<li>Час попереднього нагріву: 3 &ndash; 5 хв</li>
-	<li>Пряма головка з наконечником</li>
-	<li>З опорою</li>
-	<li>Упаковка: блістер картка</li>
+    <li>Напруга: 220-240 В</li>
+    <li>Час попереднього нагріву: 3 &ndash; 5 хв</li>
+    <li>Пряма головка з наконечником</li>
+    <li>З опорою</li>
+    <li>Упаковка: блістер картка</li>
 </ul>]]>
-            </description>
-        </offer>
-    </offers>
-</shop>
+                </description>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

@@ -1,0 +1,101 @@
+﻿<?xml version='1.0' encoding='utf-8-sig'?>
+<yml_catalog date="2024-12-27 18:09">
+    <shop>
+        <name>Al-KO</name>
+        <company>Al-KO Kober</company>
+        <url>https://alko-garden.com.ua</url>
+        <currencies>
+            <currency id="UAH" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Газонокосарки</category>
+            <category id="2">Тримери та мотокоси</category>
+            <category id="3">Кущорізи</category>
+            <category id="4">Повітродувки</category>
+            <category id="5">Аератори</category>
+            <category id="6">Пили</category>
+            <category id="7">Снігоприбиральна техніка</category>
+            <category id="8">Висоторізи</category>
+            <category id="9">Аксесуари для садової техніки</category>
+            <category id="10">Аккумулятори та зарядні пристрої для інструмента та садової техніки</category>
+            <category id="11">Оприскувачі</category>
+            <category id="12">Універсальні мойки</category>
+            <category id="13">Ліхтарі та аксесуари</category>
+            <category id="14">Мийки</category>
+            <category id="15">Культиватори та мотоблоки</category>
+            <category id="16">Витратні матеріали для мотокос</category>
+            <category id="17">Двигуни</category>
+            <category id="18">Навісне обладнання</category>
+            <category id="19">Ланцюги та шини для ланцюгових пил</category>
+            <category id="20">Подрібнювачі</category>
+            <category id="21">Гідравлічні масла</category>
+            <category id="22">Шланги</category>
+            <category id="23">Генератори</category>
+            <category id="24">Пристрої протискользіння для колес</category>
+            <category id="25">Компостери садові</category>
+            <category id="26">Моторні оливи</category>
+            <category id="27">Спеціалізована хімія</category>
+            <category id="28">Каністри автомобільні</category>
+            <category id="29">Газові грилі</category>
+            <category id="30">Грилі</category>
+            <category id="31">Аксесуари для мангалів, барбекю, грилів</category>
+            <category id="32">Заглиблювальні насоси</category>
+            <category id="33">Поверхневі насоси</category>
+            <category id="34">Мотопомпи</category>
+            <category id="35">Комплектуючі до насосів</category>
+            <category id="36">Садовий декор</category>
+        </categories>
+        <offers>
+            <offer id="113278" available="true">
+                <price>18699</price>
+                <currencyId>UAH</currencyId>
+                <categoryId>1</categoryId>
+                <picture>https://alko-garden.com.ua/out/pictures/master/product/1/al-ko-113278-moweo-3-85-li.jpg</picture>
+                <vendor>AL-KO</vendor>
+                <articlCod>113278</articlCod>
+                <name>Газонокосарка акумуляторна Moweo 38.5 Li</name>
+                <description>&lt;![CDATA[Акумулятор Li-Ion 36 V / 4,0 Ah (144 Wh), час зарядки акумулятора 90 хв, акумулятор та зарядний пристрій в комплекті, ширина захвату 37 см, висота зрізу 25-75 мм, травозбірник 45 л, полімерний корпус, площа до 250 м²]]&gt;</description>
+                <param name="Штрихкод">4003718055009</param>
+                <param name="Ширина упаковки, см">45,0</param>
+                <param name="Довжина упаковки, см">81,0</param>
+                <param name="Висота упаковки, см">37,0</param>
+                <param name="Вага, кг">18,3</param>
+                <param name="Виробник">AL-KO</param>
+                <param name="Серія">EnergyFlex</param>
+                <param name="Гарантія">2 роки</param>
+                <param name="Країна-виробник товару">Китай</param>
+                <param name="Країна реєстрації бренду">Німеччина</param>
+                <param name="Кількість в упаковці, шт">1</param>
+                <param name="Код УКТ ЗЕД">8433111000</param>
+                <param name="Ставка ПДВ">20%</param>
+                <param name="Тип">акумуляторна</param>
+                <param name="Особливості">Регулювання висоти зрізу
+                Рукоятка складається для зручного транспортування або зберігання
+                Мульчування
+                Автоматичне відкриття дроссельної заслінки
+                Задній викид
+                Боковий викид
+                Бампер відсутній
+                Колеса з шарикопідшипниками
+                Індикатор рівня заповненості
+                1-ступінчастий колісний привід</param>
+                <param name="Рекомендована площа">250</param>
+                <param name="Вид">Газонокосарка</param>
+                <param name="Тип переміщення">не самохідна</param>
+                <param name="Ширина захвату">37</param>
+                <param name="Об'єм травозбірника, л">45</param>
+                <param name="Тип запуску">Електростарт</param>
+                <param name="Тип двигуна">Безщітковий</param>
+                <param name="Кількість рівнів висоти зрізу">6</param>
+                <param name="Рівень шуму, дБ">96</param>
+                <param name="Діаметр колес">150 та 230 мм</param>
+                <param name="Напруга, В">36</param>
+                <param name="Акумулятор">36 V / 4,0 Ah (144 Wh)</param>
+                <param name="Висота зрізу">25-75 мм</param>
+                <param name="Гарантійні умови">Гарантійні зобов'язання діють при умові дотримання вимог щодо ефективного та безпечного використання продукції, вказаних в інструкції з експлуатації цього товару, при наявності гарантійного талону та оригіналу касового чеку на даний товар.</param>
+                <param name="Кількість вантажних місць">1</param>
+                <param name="Вага в упаковці">19,36</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
